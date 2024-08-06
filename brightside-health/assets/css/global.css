@@ -1,0 +1,173 @@
+/* Eric Meyer's Reset */
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+*, :before, :after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	outline: none;
+}
+/*
+ 2.0.1) Font Face
+ -----------------------------*/
+/*Put Your font face Styles here*/
+
+:root {
+	--color-green:#003437;
+	--color-lightgreen: #15CE6A;
+	--color-white: #ffffff;
+	--color-gray: #B5B5B5;
+	--color-black:#494949;
+	--bg-lightgreen:#DAFFEB;
+	--br-black: #E6E6E6;
+	--br-gray: #F2F2F2;
+	--font-body: "Roboto", sans-serif;
+	--font-normal: 400;
+	--font-medium: 500;
+	--font-bold: 700;
+	--font-black:900;
+	--banner-background:linear-gradient(-90.12deg, #003437 50.38%, #15CE6A 195.43%);
+	scroll-behavior: inherit;
+}
+
+
+body {
+	font-size:100%;
+	font-family:"Roboto", sans-serif;
+	line-height: 1.2;
+	color:#000;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+p{
+	font-size: 16px;
+	color: #494949;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+body img {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  -o-user-select: none;
+  user-select: none;          
+}
+figure{
+	margin: 0;
+}
+*:focus {
+    outline: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*
+ 2.0.3) Form Elements
+ -----------------------------*/
+button, input, optgroup, select, textarea {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+	background: #fff;
+	border: 1px solid #ccc;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+input,select,textarea{
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+	border-radius:0;
+}
+a{
+	color:#fff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	
+}
+a:focus{
+	outline: none;
+	border:none;
+}
+input {
+	line-height: normal;
+}
+input[type="checkbox"], input[type="radio"] {
+	padding: 0;
+	border: none;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"], input[type="file"] {
+	-webkit-appearance: none;
+	cursor: pointer;
+	line-height: normal;
+	overflow: visible;
+}
+button[disabled], input[disabled] {
+	cursor: default;
+	color: #999;
+	border-color: #ccc;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+    /*** iPhone and iOS Form Input Zoom Fixes ***/
+/* Fix Input Zoom on devices older than iPhone 5: */
+@media screen and (max-device-width:767px) {
+    select, textarea, input[type="text"], input[type="password"],
+    input[type="datetime"], input[type="datetime-local"],
+    input[type="date"], input[type="month"], input[type="time"],
+    input[type="week"], input[type="number"], input[type="email"],
+    input[type="tel"], input[type="url"]{ font-size: 16px !important; }
+
+}
+/*
+ 2.0.4) List Styles
+ ---------------------------------*/
+button{
+	border:none;
+	background: transparent;
+}
+li {
+	list-style-type: none;
+}
+
+h1{
+	display: flex;
+	align-items: center;
+	font-weight: var(--font-medium);
+	font-size: 18px;
+}
+/* Containers*/
+.container {
+    max-width: 1660px;
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+

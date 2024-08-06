@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mixpond</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+	<div class="warpper">
+		<!-- header-start -->
+		<header class="header">
+            <div class="container">
+                <div class="logo-block">
+                    <a href="../index.html"><img src="assets/images/logo.png" alt="logo" title="logo"></a>
+                </div>
+                <div class="search-block">
+                    <button type="button" class="btn-search"><i class="search-tag"></i></button>
+					<div class="form-wrap">
+                        <form action="#">
+                            <div class="form-control">
+                                <input type="text" placeholder="Search company insights..." class="search-bar-list">
+                                <ul class="search-list">
+                                    <li><a href="../thoughtworks/index.html">Thoughtwork</a></li>
+                                    <li><a href="index.html">Brightside Health</a></li>
+                                </ul>
+                            </div>
+                            <button type="button" class="search-btn"><i class="search-tag"></i></button>
+                            <button type="button" class="close-btn close-block"><i class="close-tag"></i></button>
+                        </form>
+                    </div>
+                    <div class="login-block">
+                        <div class="login-id-block">
+                            <img src="assets/images/login-btn.jpg" alt="login-id">
+                        </div>
+                        <div class="name-block">
+                            <span class="hello">Hello</span>
+                            <span class="nixon">Nixon</span>
+                        </div>
+                        <span class="arrow-block">
+                            <i class="arrow-tag"></i>
+                            <a href="../index.html" class="sign-out"><i class="back-icon"></i> Back To Home</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+		<!-- header-end -->
+		<form>
+		<!-- information-block-start -->
+		<section class="information">
+			<div class="container">
+				<div class="information-warp">
+						<h2>Please customize the weightage scores for the four pillars according to your preferences or requirements. <span>(The total sum must be 100)</span></h2>
+						<div class="user-details-wrap">
+							<div class="user-info">
+								<label class="form-label">Confidence in Leadership</label>
+								<input type="number" class="form-control" oninput="limitValue(this)">
+							</div>
+							<div class="user-info">
+								<label class="form-label">Market readiness</label>
+								<input type="number" class="form-control" oninput="limitValue(this)">
+							</div>
+							<div class="user-info">
+								<label class="form-label">Organizational readiness</label>
+								<input type="number" class="form-control" oninput="limitValue(this)">
+							</div>
+							<div class="user-info">
+								<label class="form-label">Culture</label>
+								<input type="number" class="form-control" oninput="limitValue(this)">
+							</div>
+							<div class="d-md-flex justify-content-between w-100 " id="error-box">
+								<p id="error-msg">Total value exceeds 100!</p>
+							<p id="error-msg1">The number should be less than 50</p>
+							<p id="total-msg"></p>
+							</div>
+						</div>
+				</div>
+					<h2>Confidence in Leadership</h2>
+					<div class="information-warp">
+					
+						<div class="user-details">
+							<div class="user-info">
+								<label  class="form-label">Who are the current executive team members?</label>
+								<input type="text" class="form-control" >
+							</div>
+							<div class="user-info">
+								<label  class="form-label">Has the organization or any of its projects/individuals received any awards recently?</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="user-info">
+								<label class="form-label">Have any company leaders presented at annual or regional meetings attended by the target audience? If so, please share details about the events and presentations.</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="user-info">
+								<label class="form-label">Has the organization been quoted in any media outlets recently? If so, please share details of the publications.</label>
+								<select class="selectOption form-select form-select-lg" aria-label="Large select example">
+									<option selected>Select</option>
+									<option value="yes">Yes</option>
+									<option value="no">No</option>
+								  </select>
+								  <div class="inputContainer">
+									<input type="text" id="textInput" class="form-control">
+								  </div>
+							</div>
+							<div class="user-info">
+								<label class="form-label">What is the current status of the organization's LinkedIn presence?</label>
+								<select class="form-select form-select-lg" aria-label="Large select example">
+									<option selected>Select</option>
+									<option value="1">Active</option>
+									<option value="2">Dormant</option>
+								  </select>
+							</div>
+							<div class="user-info">
+								<label class="form-label">How many followers does the organization currently have on LinkedIn?</label>
+								<select class="form-select form-select-lg" aria-label="Large select example">
+									<option selected>Select</option>
+									<option value="1">500+ followers</option>
+									<option value="2">1,000+ followers</option>
+								  </select>
+							</div>
+							  <div class="user-info">
+								<label class="form-label">Has the organization received any awards or recognition? If so, please share details.</label>
+								<input type="text" class="form-control">
+							</div>
+						</div>
+					</form>
+				</div>
+					<h2>Market readiness</h2>
+					<div class="information-warp">
+							<div class="user-details">
+								<div class="user-info">
+									<label  class="form-label">What are the top five services or capabilities that best represent the organization?</label>
+									<input type="text" class="form-control">
+								</div>
+								<div class="user-info">
+									<label class="form-label">How would you describe the current level of the company’s visibility and name recognition in the market?</label>
+									<select class="form-select form-select-lg" aria-label="Large select example">
+										<option selected>Select</option>
+										<option value="1">Strong</option>
+									<option value="2">Solid</option>
+									<option value="2">Needs Improvement</option>
+									<option value="2">NA</option>
+									  </select>
+								</div>
+								<div class="user-info">
+									<label class="form-label">In the context of Sales/Growth Strategy, which articulated area of differentiation holds the most potential for growth?</label>
+									<select class="form-select form-select-lg" aria-label="Large select example">
+										<option selected>Select</option>
+										<option value="1">Product Introduction</option>
+										<option value="2">New Indications/Uses </option>
+										<option value="2">Partnership</option>
+										<option value="2">Cross-Sell</option>
+										<option value="2">New Markets</option>
+									  </select>
+								</div>
+								<div class="user-info">
+									<label class="form-label">Which markets does the organization prioritize and focus on?</label>
+									<select class="form-select form-select-lg" aria-label="Large select example">
+										<option selected>Select</option>
+										<option value="1">By Audience Segmentation</option>
+									<option value="2">By Geography </option>
+									  </select>
+								</div>
+								<div class="user-info">
+									<label class="form-label">Which types of social media platforms does the organization actively engage with?</label>
+									<select class="form-select form-select-lg" aria-label="Large select example">
+										<option selected>Select</option>
+										<option value="1">LinkedIn</option>
+									<option value="2">Twitter </option>
+									<option value="2">Facebook</option>
+									<option value="2">Instagram</option>
+									<option value="2">YouTube</option>
+									<option value="2">Other</option>
+									  </select>
+								</div>
+							</div>
+							<div class="user-content">
+								<label class="form-label double-label">How does the composition of the sales team co-relate with the average annual revenue generated?</label>
+								<div class="user-info">
+									<label class="form-label">Sales Team Composition: Number of people</label>
+									<select class="form-select form-select-lg" aria-label="Large select example">
+										<option selected>Select</option>
+									<option value="1">1 - 50</option>
+									<option value="2">50 - 100 </option>
+									<option value="2">100 -1000+</option>
+									  </select>
+								</div>
+								<div class="user-info">
+									<label class="form-label">Revenue Generated</label>
+									<select class="form-select form-select-lg" aria-label="Large select example">
+										<option selected>Select</option>
+									<option value="1">Low</option>
+									<option value="2">Medium </option>
+									<option value="2">High</option>
+									  </select>
+								</div>
+							</div>
+						</form>
+					</div>
+					<h2>Organizational readiness</h2>
+					<div class="information-warp">
+							<div class="user-details">
+								<div class="user-info">
+									<label class="form-label">Has the organization established its advocacy strategy, or is it still in the planning stages for implementation? </label>
+									<select class="form-select form-select-lg" aria-label="Large select example">
+										<option selected>Select</option>
+										<option value="1">Partners in place</option>
+										<option value="2">Plan in place </option>
+									  </select>
+								</div>
+								  <div class="user-info">
+									<label  class="form-label">Does the organization have a presence on corporate social media platforms? If yes, please specify the names of the social media platforms used.</label>
+									<input type="text" class="form-control">
+								</div>
+								<div class="user-info">
+									<label class="form-label">How would you describe the current status of any corporate social media presence?</label>
+									<select class="form-select form-select-lg" aria-label="Large select example">
+										<option selected>Select</option>
+										<option value="1">Current</option>
+										<option value="2">Aged </option>
+									  </select>
+								</div>
+								<div class="user-info">
+									<label class="form-label">In the context of Sales/Growth Strategy, which articulated area of differentiation holds the most potential for growth?</label>
+									<select class="form-select form-select-lg" aria-label="Large select example">
+										<option selected>Select</option>
+										<option value="1">Product Introduction</option>
+										<option value="2">New Indications/Uses </option>
+										<option value="2">Partnership </option>
+										<option value="2">Cross-Sell </option>
+										<option value="2">New Markets </option>
+									  </select>
+								</div>
+								<div class="user-info">
+									<label class="form-label">Does the organization have a corporate website? If yes, what is the current status of the website?</label>
+									<select class="selectOption form-select form-select-lg" aria-label="Large select example">
+										<option selected>Select</option>
+										<option value="yes">Yes</option>
+									<option value="no">No </option>
+									  </select>
+									  <div class="inputContainer">
+										<select class="form-select form-select-lg" aria-label="Large select example">
+											<option selected>Select</option>
+											<option value="1">Current</option>
+										<option value="2">Aged </option>
+										  </select>
+									  </div>
+								</div>
+							</div>
+					</div>
+					<h2>Culture</h2>
+					<div class="information-warp">
+							<div class="user-details">
+								<div class="user-info">
+									<label class="form-label">What is the current status of the organization's DEI policy? If Active, add more details.</label>
+									<select class="form-select form-select-lg" aria-label="Large select example">
+										<option selected>Select</option>
+										<option value="1">Active</option>
+										<option value="2">In development </option>
+									  </select>
+								</div>
+								<div class="user-info">
+									<label class="form-label">What is the organization’s approach or position itself regarding sustainability standards?</label>
+									<select class="form-select form-select-lg" aria-label="Large select example">
+										<option selected>Select</option>
+										<option value="1">In Place</option>
+									<option value="2">Planning Stage </option>
+									<option value="2">Aspirations within 1-3 years </option>
+									<option value="2">Aspirations within 5 years </option>
+									  </select>
+								</div>
+								  <div class="user-info">
+									<label  class="form-label">Is corporate citizenship currently reflected in your business culture and operations? If yes then what is the percentage of different operations?</label>
+									<input type="text" class="form-control" >
+								</div>
+							</div>
+							<div class="text-center">
+								<button type="button" class="btn submit_btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+									Submit
+								  </button>
+							</div>
+					</div>
+			</div>
+		</section>
+			<!-- information-block-end-->
+		</form>
+		<!-- footer-start -->
+		<footer class="footer">
+            <div class="container">
+                <div class="topbar">
+                    <a href="../index.html" class="footer-logo">
+                        <img src="assets/images/logo.png" alt="footer-logo">
+                    </a>
+                    <!-- <ul class="footer-link">
+                        <li><a href="#">Privacy &amp; Policies</a></li>
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                        <li><span>Email:</span><a href="mailto:support@readiness.com"> support@readiness.com</a></li>
+                        <li><span>Phone :</span><a href="tel:156655511"> +1 566 555 11</a></li>
+                    </ul> -->
+                  <div class="social-media">
+                    <span>Follow Us</span>
+                    <ul class="social-link">
+                        <li><a href="#"><img src="assets/images/fb.png" alt="fb"></a></li>
+                        <li><a href="#"><img src="assets/images/twitter.png" alt="fb"></a></li>
+                        <li><a href="#"><img src="assets/images/linkedin.png" alt="fb"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="bottom-bar">
+                    <span>All Rights Reserved. © Readiness Proof Index 2024</span>
+                </div>
+            </div>
+         </footer>
+		 	<!-- footer-end -->
+			 <section class="scrolling-top">
+				<div class="scrolling-top-block">
+					<i class="arrow-tag"></i>
+				</div>
+				<div class="scrolltop">
+					<i class="arrow-tag arrow-tag-block"></i>
+				</div>
+			</section>
+			<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body text-center">
+		  <p>Your form is submitted, Your report will be generated soon</p>
+		</div>
+	  </div>
+	</div>
+  </div>
+	</div>
+	<script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

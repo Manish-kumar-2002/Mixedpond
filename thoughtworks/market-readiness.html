@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mixpond</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/jqvmap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="logo-block">
+                    <a href="../index.html"><img src="assets/images/logo.png" alt="logo" title="logo"></a>
+                </div>
+                <div class="search-block">
+                    <button type="button" class="btn-search"><i class="search-tag"></i></button>
+                    <div class="form-wrap">
+                        <form action="#">
+                            <div class="form-control">
+                                <input type="text" placeholder="Search company insights..." class="search-bar-list">
+                                <ul class="search-list">
+                                      <li><a href="index.html">Thoughtworks</a></li>
+                                    <li><a href="../brightside-health/index.html">Brightside Health</a></li>
+                                </ul>
+                            </div>
+                            <button type="button" class="search-btn"><i class="search-tag"></i></button>
+                            <button type="button" class="close-btn close-block"><i class="close-tag"></i></button>
+                        </form>
+                    </div>
+                    <div class="login-block">
+                        <div class="login-id-block">
+                            <img src="assets/images/login-btn.jpg" alt="login-id">
+                        </div>
+                        <div class="name-block">
+                            <span class="hello">Hello</span>
+                            <span class="nixon">Nixon</span>
+                        </div>
+                        <span class="arrow-block">
+                            <i class="arrow-tag"></i>
+                            <a href="../index.html" class="sign-out"><i class="back-icon"></i> Back To Home</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="container">
+                <div class="banner-block"></div>
+            </div>
+        </section>
+        <section class="brand-wrap">
+            <div class="container">
+                <div class="whole-wrap">
+                    <div class="brand-block">
+                        <div class="brand-detail">
+                            <div class="brand-image">
+                                <img src="assets/images/thoughtworks_logo.png" alt="google" title="google">
+                            </div>
+                            <div class="brand-name">
+                                <span class="organization-text">Organization</span>
+                                <h1>Thoughtworks <i class="verified-tag"></i></h1>
+                            </div>
+                        </div>
+                        <div class="button-wrap">
+                            <a href="javascript:void(0)" class="button-details compare-block"><i class="compare-tag"></i>Compare</a>
+                            <a href="#" class="button-details export-block" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="export-tag"></i>Export PDF</a>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body" style="text-align: center;">
+                                        This functionality will be available soon. <br><br>
+                                        Upon selecting the "Export PDF" button, users will be able to download the organization report in PDF format.
+                                    </div>
+
+                                </div>
+                                </div>
+                            </div>
+                            <a href="#" class="button-details"><i class="website-tag"></i>Visit Website</a>
+                            <div class="compare-form">
+                                <form action="#">
+                                    <div class="compare-form-block">
+                                        <div class="form-control">
+                                            <input type="text" placeholder="Try typing'new'" class="input-click">
+                                            <button type="button" class="close-btn close-block"><i class="close-tag"></i></button>
+                                        </div>
+                                        <ul class="compare-list">
+                                            <li><a href="comparision.html">Publicis Sapient</a></li>
+                                            <li><a href="comparision.html">Trilogy</a></li>
+                                        </ul>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-button">
+                        <div class="button-block">
+                            <a href="index.html" class="button-tag">Leadership</a>
+                            <a href="market-readiness.html" class="button-tag onactive">Market Readiness</a>
+                            <a href="organization.html" class="button-tag">Organizational Readiness</a>
+                            <a href="culture.html" class="button-tag">Culture</a>
+                            <a href="organizationscore.html" class="button-tag">Organization Score</a>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- organization-section-start  -->
+        <section class="organization">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item active" data-id="tab1">
+                        <i class="overview" aria-hidden="true"></i>
+                      <a class="nav-link"href="javascript:void(0)">Overview</a>
+                    </li>
+                    <li class="nav-item" data-id="tab2">
+                        <i class="leader" aria-hidden="true"></i>
+                      <a class="nav-link"href="javascript:void(0)">Engagement</a>
+                    </li>
+                    <li class="nav-item" data-id="tab3">
+                        <i class="awards dollar" aria-hidden="true"></i>
+                      <a class="nav-link" href="javascript:void(0)">Revenue</a>
+                    </li>
+                    <li class="nav-item" data-id="tab4">
+                        <i class="awards investment" aria-hidden="true"></i>
+                      <a class="nav-link" href="javascript:void(0)">Investment</a>
+                    </li>
+                    <li class="nav-item" data-id="tab5">
+                        <i class="media" aria-hidden="true"></i>
+                      <a class="nav-link"href="javascript:void(0)">Media Coverage</a>
+                    </li>
+                    <li class="nav-item" data-id="tab6">
+                        <i class="awards" aria-hidden="true"></i>
+                      <a class="nav-link"href="javascript:void(0)">Awards</a>
+                    </li>
+                  </ul>
+                  <div class="whole-wrap whole-wrapper">
+                    <div class="overview-wrapper tab tab-active" data-id="tab1">
+                        <div class="whole-wrap whole-wrapper">
+                            <div class="row justify-content-between overview-block">
+                                <div class="col-12 col-lg-7 award-specialtie-block">
+                                    <div class="heading-wrap mission-block">
+                                        <i class="awards mission-icon" aria-hidden="true"></i>
+                                        <h2>Mission</h2>
+                                    </div>
+                                    <p>To create an extraordinary impact on the world through our culture and technology excellence.</p>
+                                    <ul class="heading-wrap mission-revenue">
+                                        <li>
+                                            <h2><i class="awards website-icon"></i>Website</h2>
+                                            <a href="https://www.thoughtworks.com/"><span class="heading-detail">http://www.thoughtworks.com</span></a>
+                                        </li>
+                                        <li>
+                                            <h2><i class="awards revenue-icon"></i>Revenue</h2>
+                                            <span class="heading-detail">$1.2B</span>
+                                        </li>
+                                        <li>
+                                            <h2><i class="awards employee-icon"></i>Employee</h2>
+                                            <span class="heading-detail">10001+</span>
+                                        </li>
+                                        <li>
+                                            <h2><i class="awards years-icon"></i>Founded Years</h2>
+                                            <span class="heading-detail">1993</span>
+                                        </li>
+                                    </ul>
+                                    <div class="heading-wrap specialties-block">
+                                        <i class="awards specialties-icon" aria-hidden="true"></i>
+                                        <h2>Specialties</h2>
+                                    </div>
+                                    <ul class="specialties-deatil">
+                                        <li>Agile Development (Scrum, XP, Lean)</li>
+                                        <li>Retail Customer Experience Consulting</li>
+                                        <li>Management Consulting</li>
+                                        <li>Data Science and Analytics</li>
+                                        <li>Product Innovation</li>
+                                        <li>Open Source Communities</li>
+                                        <li>Continuous Delivery</li>
+                                        <li>User Experience Design</li>
+                                        <li>Agile Development Tools</li>
+                                        <li>Mobile Strategy</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-4 headquaters-block">
+                                    <h2 class="follow-tag">Social Media</h2>
+                                    <ul class="social-block">
+                                        <li><a href="https://www.facebook.com/Thoughtworks" target="_blank"><i class="awards facebook-icon"></i></a> <span class="follow-block">139K Followers</span> </li>
+                                        <li><a href="https://twitter.com/thoughtworks"target="_blank"><i class="awards twitter-icon"></i></a><span class="follow-block">178.2K Followers</span></li>
+                                        <li><a href="https://www.linkedin.com/company/thoughtworks/"target="_blank"><i class="awards linkedin-icon"></i></a><span class="follow-block">575K Followers</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="engagement-wrapper tab" data-id="tab2">
+                        <div class="heading-wrap">
+                            <i class="leader" aria-hidden="true"></i>
+                            <h2>Engagement Overview</h2>
+                        </div>
+                        <p>Explore Thoughtworks Engagement Overview, where we delve into monthly visits, unique visitors, return visitors, and bounce rates. These metrics provide insight into Thoughtworks audience's interactions, loyalty, and overall engagement with their platform </p>
+                        <ul class="heading-wrap mission-revenue market-rank">
+                            <li>
+                                <h2><i class="awards website-icon"></i>Monthly Visits</h2>
+                                <span class="heading-detail">538K</span>
+                            </li>
+                            <li>
+                                <h2><i class="awards website-icon"></i>Return Visitors</h2>
+                                <span class="heading-detail">N/A</span>
+                            </li>
+                          
+                            <li>
+                                <h2><i class="awards group"></i>Bounce Rate</h2>
+                                <span class="heading-detail">67.57%</span>
+                            </li>
+                            <li>
+                                <h2><i class="awards years-icon"></i>Unique Visitors</h2>
+                                <span class="heading-detail">111.4K</span>
+                            </li>
+                          
+                        </ul>
+
+                        
+                            <div class="heading-wrap">
+                                <i class="audience" aria-hidden="true"></i>
+                                <h2>Audience</h2>
+                            </div>
+                            <p>Delve into Thoughtworks Audience Segmentation by Demographics, where we analyze their user base through diverse demographic factors.</p>
+                            <div class="audience-content">
+                               <div class="map">
+                                <div id="vmap"></div>
+                               </div>
+                                <div class="map-data">
+                                   <div class="country-wrap">
+                                    <i class="us" aria-hidden="true"></i>
+                                    <div class="country-name">
+                                        <span class="name">United States</span>
+                                        <div class="percentage"><span class="number">16.00%</span>
+                                            <span class="increase-by">4.76%</span>
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div class="country-wrap">
+                                    <i class="india" aria-hidden="true"></i>
+                                    <div class="country-name">
+                                        <span class="name">India</span>
+                                        <div class="percentage"><span class="number">10.25%</span>
+                                            <span class="increase-by">4.76%</span>
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div class="country-wrap">
+                                    <i class="brazil" aria-hidden="true"></i>
+                                    <div class="country-name">
+                                        <span class="name">Brazil</span>
+                                        <div class="percentage"><span class="number">7.77%</span>
+                                            <span class="increase-by">4.76%</span>
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div class="country-wrap">
+                                    <i class="uk" aria-hidden="true"></i>
+                                    <div class="country-name">
+                                        <span class="name">United Kingdom</span>
+                                        <div class="percentage"><span class="number">6.36%</span>
+                                            <span class="increase-by">4.76%</span>
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div class="country-wrap">
+                                    <i class="japan" aria-hidden="true"></i>
+                                    <div class="country-name">
+                                        <span class="name">Japan</span>
+                                        <div class="percentage"><span class="number">5.14%</span>
+                                            <span class="increase-by">4.76%</span>
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div class="country-wrap">
+                                    <i class="others" aria-hidden="true"></i>
+                                    <div class="country-name">
+                                        <span class="name">Others</span>
+                                        <div class="percentage"><span class="number">54.48%</span>
+                                            <span class="increase-by">4.76%</span>
+                                        </div>
+                                    </div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="distribution-wrapper">
+                                <h2 class="traffic-tag">Website Traffic Demographics</h2>
+                                <div class="distribution-content">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6">
+                                            <div class="gender-distribution">
+                                                <h2>Gender Distribution</h2>
+                                                <p>Dive into Thoughtworks Website Engagement by Gender, where we analyze the interaction patterns of male and female visitors. Understanding how different genders engage with their platform
+                                                </p>
+                                               <div class="img-wrapper">
+                                                <div id="pie-basic" style="height: 300px;"></div>
+                                               </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6">
+                                            <div class="age-distribution">
+                                                <h2>Age Group</h2>
+                                                <p>Dive into Thoughtworks Website Engagement by Age Groups, where we explore how distinct age demographics users are interacting with their platform</p>
+                                                <div class="img-wrapper">
+                                                    <div id="column-datalabels" style="height: 300px;"></div>
+                                                   </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                    
+                   <div class="revenue-block tab" data-id="tab3">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="line-graph">
+                                <div class="heading-wrap">
+                                    <i class="leader dollar" aria-hidden="true"></i>
+                                    <h2>Revenue</h2>
+                                </div>
+                                <p>Discover Thoughtworks Revenue insights, where we unveil the financial metrics and performance indicators that drive our business forward
+                                </p>
+                                <div id="line-chart-datalabels"></div>
+                                <div class="revenue-text"><span class="revenue-tag">Next Three Years Revenue Goal</span></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="line-graph">
+                                <div class="heading-wrap">
+                                    <i class="leader dollar growth-tag" aria-hidden="true"></i>
+                                    <h2>Organization Growth </h2>
+                                </div>
+                                <p>Explore Thoughtworks Organizational Growth over the last five years, as reflected in our robust revenue figures. Witness the trajectory of Their financial success.</p>
+                                <div id="organization-growth"></div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                  <div class="investment-wrapper tab" data-id="tab4">
+                    <div class="table-wrap">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <div class="heading-wrap">
+                                    <i class="leader investment" aria-hidden="true"></i>
+                                    <h2>Investment</h2>
+                                </div>
+                                <p>Explore Thoughtworks Investment Portfolio, where we highlight strategic investments driving innovation and growth
+                                </p>
+                               <div class="investment-table">
+                                <table class="table table-striped">
+                                    <tr>
+                                        <th >Company Name</th>
+                                        <th >Amount</th>
+                                        <th >Investment Date </th>
+                                        <th>Funding Type</th>
+                                        <th>Exit Date </th>
+                                    </tr>
+                                    <tr>
+                                        <td class="comparison-td content-data race-block" colspan="5"><strong class="organization-td">No Data</strong></td>
+                                    </tr>
+                                </table>
+                               </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="heading-wrap">
+                                    <i class="leader funding" aria-hidden="true"></i>
+                                    <h2>Funding Rounds</h2>
+                                </div>
+                                <p>Navigate through Thoughtworks Funding Rounds, a testament to their journey of growth and innovation</p>
+                                <div class="investment-table">
+                                    <table class="table table-striped">
+                                        <tr>
+                                            <th >Investor Name</th>
+                                            <th >Announced on</th>
+                                            <th >Amount Raised </th>
+                                            <th>Funding Type</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Undisclosed</td>
+                                            <td>Sep 2021</td>
+                                            <td>$773.7M</td>
+                                            <td>IPO</td>
+                                        </tr>
+                                        <tr>
+                                            <td>GIC Private Ltd,  Mubadala Investment Co,  Siemens AG,  Fidelity Management & Research LLC.</td>
+                                            <td>Jan 2021</td>
+                                            <td>$720M</td>
+                                            <td>Equity</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                    <div class="media-wrapper tab" data-id="tab5">
+                        <div class="heading-wrap">
+                            <i class="media" aria-hidden="true"></i>
+                            <h2>Organization Media Mention</h2>
+                        </div>
+                        <p>Review Thoughtworks media mentions, showcasing their visibility, impact, and industry resonance. From featured articles to news coverage, observe our presence in the media landscape, reflecting our relevance and market perception</p>
+                    <div class="media-wrap">
+                        <span>Total number of media mention</span>
+                        <span class="media-num">226</span>
+                    </div>
+                     <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-5 col-lg-3">
+                                <div class="img-wrapper">
+                                    <img src="assets/images/media3.png" alt="media2">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-7 col-lg-9">
+                                <div class="media-content">
+                                    <div class="media-text">
+                                        <span class="date">29 Nov 2023</span>
+                                        <h2>Leveraging AI for Efficient Planning of Electric Vehicle Charging Networks (Guest blog from Thoughtworks)</h2>
+                                    </div>
+                                 <div class="btn-wrap">
+                                    <a href="https://www.techuk.org/resource/leveraging-ai-for-efficient-planning-of-electric-vehicle-charging-networks-guest-blog-from-thoughtworks.html" target="_blank" class="btn">Read full story</a>
+                                 </div>  
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-5 col-lg-3">
+                                <div class="img-wrapper">
+                                    <img src="assets/images/media1.png" alt="media2">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-7 col-lg-9">
+                                <div class="media-content">
+                                    <div class="media-text">
+                                        <span class="date">28 Nov 2023</span>
+                                        <h2>Thoughtworks Announces Expansion Plans in Switzerland</h2>
+                                    </div>
+                                      <div class="btn-wrap">
+                                        <a href="https://www.businesswire.com/news/home/20231122942785/en/Thoughtworks-Announces-Expansion-Plans-in-Switzerland" target="_blank" class="btn">Read full story</a>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-5 col-lg-3">
+                                <div class="img-wrapper">
+                                    <img src="assets/images/media2.png" alt="media2">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-7 col-lg-9">
+                                <div class="media-content">
+                                       <div class="media-text">
+                                        <span class="date">21 Nov 2023</span>
+                                        <h2>Cloud Native Sustainability: Strategies for carbon reduction (Guest blog from Thoughtworks)</h2>
+                                       </div>
+                                       <div class="btn-wrap">
+                                        <a href="https://www.techuk.org/resource/cloud-native-sustainability-strategies-for-carbon-reduction.html" target="_blank" class="btn">Read full story</a>
+                                       </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     </div>
+
+                     <div class="awards-wrapper tab" data-id="tab6">
+                        <div class="heading-wrap">
+                            <i class="awards" aria-hidden="true"></i>
+                            <h2>Awards</h2>
+                        </div>
+                        <p>Discover Thoughtworks accolades and recognition, testament to Their commitment to excellence and innovation. From industry awards to customer commendations, They take pride in our achievements and continuous pursuit of excellence.</p>
+                        <div class="media-wrap">
+                            <span>Total number of awards</span>
+                            <span class="media-num">50+</span>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-5 text-center">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img src="assets/images/google3.png" alt="card-img">
+                                       </div>
+                                    <div class="card-body">
+                                   <span class="company-name">Worlds Best Work Place</span>
+                                   <span class="delivery">2023</span>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img src="assets/images/brazil.png" alt="card-img">
+                                       </div>
+                                    <div class="card-body">
+                                   <span class="company-name">Great Place to Work (Brasil)</span>
+                                   <span class="delivery">June 2023 - June 2024</span>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class=" col">
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img src="assets/images/chaina.png" alt="card-img">
+                                       </div>
+                                    <div class="card-body">
+                                        <span class="company-name">Great Place to Work (Chile)</span>
+                                        <span class="delivery">Oct 2022 - Oct 2023</span>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img src="assets/images/espain.png" alt="card-img">
+                                       </div>
+                                    <div class="card-body">
+                                        <span class="company-name">Great Place to Work (China)</span>
+                                        <span class="delivery"> Sep 2022 - Sep 2023</span>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img src="assets/images/india.png" alt="card-img">
+                                       </div>
+                                    <div class="card-body">
+                                        <span class="company-name">Great Place to Work (India)</span>
+                                        <span class="delivery">Oct 2022 - Oct 2023</span>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                      </div>
+
+                  
+
+                  
+                  </div>
+            </div>
+        </section>
+         <!-- organization-section-end  -->
+         <!-- footer-start -->
+          <footer class="footer">
+                <div class="container">
+                    <div class="topbar">
+                        <a href="../index.html" class="footer-logo">
+                            <img src="assets/images/logo.png" alt="footer-logo">
+                        </a>
+                      <div class="social-media">
+                        <span>Follow Us</span>
+                        <ul class="social-link">
+                            <li><a href="#"><img src="assets/images/fb.png" alt="fb"></a></li>
+                            <li><a href="#"><img src="assets/images/twitter.png" alt="fb"></a></li>
+                            <li><a href="#"><img src="assets/images/linkedin.png" alt="fb"></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="bottom-bar">
+                        <span>All Rights Reserved. © Readiness Proof Index 2024</span>
+                    </div>
+                </div>
+        </footer>
+          <!-- footer-end -->
+          <section class="scrolling-top">
+            <div class="scrolling-top-block">
+                <i class="arrow-tag"></i>
+            </div>
+            <div class="scrolltop">
+                <i class="arrow-tag arrow-tag-block"></i>
+            </div>
+        </section>
+    </div>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/jquery.vmap.js"></script>
+    <script src="assets/js/jquery.vmap.world.js"></script>
+    <script src="assets/js/jquery.vmap.sampledata.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/apexcharts.min.js"></script>
+    <script src="assets/js/apexcharts.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

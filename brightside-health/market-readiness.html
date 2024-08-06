@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mixpond</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/jqvmap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="logo-block">
+                    <a href="../index.html"><img src="assets/images/logo.png" alt="logo" title="logo"></a>
+                </div>
+                <div class="search-block">
+                    <button type="button" class="btn-search"><i class="search-tag"></i></button>
+                    <div class="form-wrap">
+                        <form action="#">
+                            <div class="form-control">
+                                <input type="text" placeholder="Search company insights..." class="search-bar-list">
+                                <ul class="search-list">
+                                    <li><a href="../thoughtworks/index.html">Thoughtwork</a></li>
+                                    <li><a href="index.html">Brightside Health</a></li>
+                                </ul>
+                            </div>
+                            <button type="button" class="search-btn"><i class="search-tag"></i></button>
+                            <button type="button" class="close-btn close-block"><i class="close-tag"></i></button>
+                        </form>
+                    </div>
+                    <div class="login-block">
+                        <div class="login-id-block">
+                            <img src="assets/images/login-btn.jpg" alt="login-id">
+                        </div>
+                        <div class="name-block">
+                            <span class="hello">Hello</span>
+                            <span class="nixon">Nixon</span>
+                        </div>
+                        <span class="arrow-block">
+                            <i class="arrow-tag"></i>
+                            <a href="../index.html" class="sign-out"><i class="back-icon"></i> Back To Home</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="container">
+                <div class="banner-block"></div>
+            </div>
+        </section>
+        <section class="brand-wrap">
+            <div class="container">
+                <div class="whole-wrap">
+                    <div class="brand-block">
+                        <div class="brand-detail">
+                            <div class="brand-image">
+                                <img src="assets/images/brightsidehealth_logo.jpg" alt="google" title="google">
+                            </div>
+                            <div class="brand-name">
+                                <span class="organization-text">Organization</span>
+                                <h1>Brightside Health<i class="verified-tag"></i></h1>
+                            </div>
+                        </div>
+                        <div class="button-wrap">
+                            <a href="javascript:void(0)" class="button-details compare-block"><i class="compare-tag"></i>Compare</a>
+                            <a href="#" class="button-details export-block" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="export-tag"></i>Export PDF</a>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body" style="text-align: center;">
+                                        This functionality will be available soon. <br><br>
+                                        Upon selecting the "Export PDF" button, users will be able to download the organization report in PDF format.
+                                    </div>
+
+                                </div>
+                                </div>
+                            </div>
+                            <a href="#" class="button-details"><i class="website-tag"></i>Visit Website</a>
+                            <div class="compare-form">
+                                <form action="#">
+                                    <div class="compare-form-block">
+                                        <div class="form-control">
+                                            <input type="text" placeholder="Try typing'new'" class="input-click">
+                                            <button type="button" class="close-btn close-block"><i class="close-tag"></i></button>
+                                        </div>
+                                        <ul class="compare-list">
+                                            <li><a href="comparision.html">Headspace</a></li>
+                                            <li><a href="comparision.html">Spring Health</a></li>
+                                        </ul>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-button">
+                        <div class="button-block">
+                            <a href="index.html" class="button-tag">Leadership</a>
+                            <a href="market-readiness.html" class="button-tag onactive">Market Readiness</a>
+                            <a href="organization.html" class="button-tag">Organizational Readiness</a>
+                            <a href="culture.html" class="button-tag">Culture</a>
+                            <a href="organizationscore.html" class="button-tag">Organization Score</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- organization-section-start  -->
+        <section class="organization">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item active" data-id="tab1">
+                        <i class="overview" aria-hidden="true"></i>
+                        
+                      <a class="nav-link"href="javascript:void(0)">Overview</a>
+                    </li>
+                    <li class="nav-item" data-id="tab2">
+                        <i class="leader" aria-hidden="true"></i>
+                      <a class="nav-link"href="javascript:void(0)">Engagement</a>
+                    </li>
+                    <li class="nav-item" data-id="tab3">
+                        <i class="awards dollar" aria-hidden="true"></i>
+                      <a class="nav-link" href="javascript:void(0)">Revenue</a>
+                    </li>
+                    <li class="nav-item" data-id="tab4">
+                        <i class="awards investment" aria-hidden="true"></i>
+                      <a class="nav-link" href="javascript:void(0)">Investment</a>
+                    </li>
+                    <li class="nav-item" data-id="tab5">
+                        <i class="media" aria-hidden="true"></i>
+                      <a class="nav-link" href="javascript:void(0)">Media Coverage</a>
+                    </li>
+                    <li class="nav-item" data-id="tab6">
+                        <i class="awards" aria-hidden="true"></i>
+                      <a class="nav-link" href="javascript:void(0)">Awards</a>
+                    </li>
+                  </ul>
+                  <div class="whole-wrap whole-wrapper">
+                    <div class="overview-wrapper tab tab-active" data-id="tab1">
+                        <div class="whole-wrap whole-wrapper">
+                            <div class="row justify-content-between overview-block">
+                                <div class="col-12 col-lg-7 award-specialtie-block">
+                                    <div class="heading-wrap mission-block">
+                                        <i class="awards mission-icon" aria-hidden="true"></i>
+                                        <h2>Mission</h2>
+                                    </div>
+                                    <p>We’re committed to delivering life-changing mental health care to everyone who needs it</p>
+                                    <ul class="heading-wrap mission-revenue">
+                                        <li>
+                                            <h2><i class="awards website-icon"></i>Website</h2>
+                                            <a href="https://www.brightside.com"><span class="heading-detail">https://www.brightside.com</span></a>
+                                        </li>
+                                        <li>
+                                            <h2><i class="awards revenue-icon"></i>Revenue</h2>
+                                            <span class="heading-detail">$5 - 25M</span>
+                                        </li>
+                                        <li>
+                                            <h2><i class="awards employee-icon"></i>Employee</h2>
+                                            <span class="heading-detail">51-200+ Emp</span>
+                                        </li>
+                                        <li>
+                                            <h2><i class="awards years-icon"></i>Founded Years</h2>
+                                            <span class="heading-detail">2017</span>
+                                        </li>
+                                    </ul>
+                                    <div class="heading-wrap specialties-block">
+                                        <i class="awards specialties-icon" aria-hidden="true"></i>
+                                        <h2>Specialties</h2>
+                                    </div>
+                                    <ul class="specialties-deatil">
+                                        <li>Generalized Anxiety Disorder</li>
+                                        <li>Major Depressive Disorder</li>
+                                        <li>Panic Disorder</li>
+                                        <li>Phobia</li>
+                                        <li>Social Anxiety Disorder</li>
+                                        <li>Obsessive-Compulsive Disorder (OCD)</li>
+                                        <li>Post-Traumatic Stress Disorder (PTSD)</li>
+                                        <li>Seasonal Affective Disorder (SAD)</li>
+                                        <li>Postpartum Depression</li>
+                                        <li>Premenstrual Dysphoric Disorder (PMDD)</li>
+                                        <li>Insomnia</li>
+                                        <li>Bipolar Disorder</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-4 headquaters-block">
+                                                           
+                                    <h2 class="follow-tag">Social Media</h2>
+                                    <ul class="social-block">
+                                        <li><a href="https://www.facebook.com/brightsidehealth/" target="_blank"><i class="awards facebook-icon"></i></a><span class="follow-block">4.8K Followers</span></li>
+                                        <li><a href="https://twitter.com/withbrightside"target="_blank"><i class="awards twitter-icon"></i></a><span class="follow-block">352K Followers</span></li>
+                                        <li><a href="https://www.linkedin.com/company/brightsidehealth"target="_blank"><i class="awards linkedin-icon"></i></a><span class="follow-block">32K Followers</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="engagement-wrapper tab" data-id="tab2">
+                        <div class="heading-wrap">
+                            <i class="leader" aria-hidden="true"></i>
+                            <h2>Engagement Overview</h2>
+                        </div>
+                        <p>Explore Brightside Health Engagement Overview, where we delve into monthly visits, unique visitors, return visitors, and bounce rates. These metrics provide insight into Brightside Health audience's interactions, loyalty, and overall engagement with their platform </p>
+                        <ul class="heading-wrap mission-revenue market-rank">
+                            <li>
+                                <h2><i class="awards website-icon"></i>Unique Visitors</h2>
+                                <span class="heading-detail">245.5K</span>
+                            </li>
+                            <li>
+                                <h2><i class="awards website-icon"></i>Return Visitors</h2>
+                                <span class="heading-detail">N/A</span>
+                            </li>
+                          
+                            <li>
+                                <h2><i class="awards group"></i>Bounce Rate</h2>
+                                <span class="heading-detail">43.03%</span>
+                            </li>
+                            <li>
+                                <h2><i class="awards years-icon"></i>Monthly Visits</h2>
+                                <span class="heading-detail">1.1M</span>
+                            </li>
+                          
+                        </ul>
+
+                            <div class="heading-wrap">
+                                <i class="audience" aria-hidden="true"></i>
+                                <h2>Audience</h2>
+                            </div>
+                            <p>Delve into Brightside Health Audience Segmentation by Demographics, where we analyze their user base through diverse demographic factors.</p>
+                            <div class="audience-content">
+                               <div class="map">
+                                <div id="vmap"></div>
+                               </div>
+                                <div class="map-data">
+                                   <div class="country-wrap">
+                                    <i class="us" aria-hidden="true"></i>
+                                    <div class="country-name">
+                                        <span class="name">United States</span>
+                                        <div class="percentage"><span class="number">94.97%</span>
+                                            <span class="increase-by">4.76%</span>
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div class="country-wrap">
+                                    <i class="indo" aria-hidden="true"></i>
+                                    <div class="country-name">
+                                        <span class="name">Indonesia</span>
+                                        <div class="percentage"><span class="number">1.19%</span>
+                                            <span class="increase-by">4.76%</span>
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div class="country-wrap">
+                                    <i class="uk" aria-hidden="true"></i>
+                                    <div class="country-name">
+                                        <span class="name">United Kindom </span>
+                                        <div class="percentage"><span class="number">0.87%</span>
+                                            <span class="increase-by">4.76%</span>
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div class="country-wrap">
+                                    <i class="morocoo" aria-hidden="true"></i>
+                                    <div class="country-name">
+                                        <span class="name">Morocco</span>
+                                        <div class="percentage"><span class="number">0.67%</span>
+                                            <span class="increase-by">4.76%</span>
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div class="country-wrap">
+                                    <i class="hungary" aria-hidden="true"></i>
+                                    <div class="country-name">
+                                        <span class="name">Hungary</span>
+                                        <div class="percentage"><span class="number">0.50%</span>
+                                            <span class="increase-by">4.76%</span>
+                                        </div>
+                                    </div>
+                                   </div>
+                                   <div class="country-wrap">
+                                    <i class="others" aria-hidden="true"></i>
+                                    <div class="country-name">
+                                        <span class="name">Others</span>
+                                        <div class="percentage"><span class="number">1.80%</span>
+                                            <span class="increase-by">4.76%</span>
+                                        </div>
+                                    </div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="distribution-wrapper">
+                                <h2 class="traffic-tag">Website Traffic Demographics</h2>
+                                <div class="distribution-content">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6">
+                                            <div class="gender-distribution">
+                                                <h2>Gender Distribution</h2>
+                                                <p>Dive into Brightside Health Website Engagement by Gender, where we analyze the interaction patterns of male and female visitors. Understanding how different genders engage with their platform
+                                                </p>
+                                               <div class="img-wrapper">
+                                                <div id="pie-basic" style="height: 300px;"></div>
+                                               </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6">
+                                            <div class="age-distribution">
+                                                <h2>Age Group</h2>
+                                                <p>Dive into Brightside Health Website Engagement by Age Groups, where we explore how distinct age demographics users are interacting with their platform</p>
+                                                <div class="img-wrapper">
+                                                    <div id="column-datalabels" style="height: 300px;"></div>
+                                                   </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        
+
+                    </div>
+                    
+                   <div class="revenue-block tab" data-id="tab3">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="line-graph">
+                                <div class="heading-wrap">
+                                    <i class="leader dollar" aria-hidden="true"></i>
+                                    <h2>Revenue</h2>
+                                </div>
+                                <p>Discover Brightside Health Revenue insights, where we unveil the financial metrics and performance indicators that drive our business forward
+                                </p>
+                                <div id="line-chart-datalabels"></div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="line-graph">
+                                <div class="heading-wrap">
+                                    <i class="leader dollar growth-tag" aria-hidden="true"></i>
+                                    <h2>Organization Growth </h2>
+                                </div>
+                                <p>Explore Brightside Health Organizational Growth over the last five years, as reflected in our robust revenue figures. Witness the trajectory of Their financial success.</p>
+                                <div id="organization-growth"></div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                  <div class="investment-wrapper tab" data-id="tab4">
+                    <div class="table-wrap">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <div class="heading-wrap">
+                                    <i class="leader investment" aria-hidden="true"></i>
+                                    <h2>Investment</h2>
+                                </div>
+                                <p>Explore Brightside Health Investment Portfolio, where we highlight strategic investments driving innovation and growth
+                                </p>
+                               <div class="investment-table">
+                                <table class="table table-striped">
+                                    <tr>
+                                        <th >Company Name</th>
+                                        <th >Amount</th>
+                                        <th >Investment Date </th>
+                                        <th>Funding Type</th>
+                                        <th>Exit Date </th>
+                                    </tr>
+                                    <tr>
+                                        <td class="comparison-td content-data race-block" colspan="5"><strong class="organization-td">No Data</strong></td>
+                                    </tr>
+                                </table>
+                               </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="heading-wrap">
+                                    <i class="leader funding" aria-hidden="true"></i>
+                                    <h2>Funding Rounds</h2>
+                                </div>
+                                <p>Navigate through Brightside Health Funding Rounds, a testament to their journey of growth and innovation</p>
+                                <div class="investment-table">
+                                    <table class="table table-striped">
+                                        <tr>
+                                            <th >Investor Name</th>
+                                            <th >Announced on</th>
+                                            <th >Amount Raised </th>
+                                            <th>Funding Type</th>
+                                        </tr>
+                                        <tr>
+                                            <td>ACME Capital Mousse Partners, Bullpen Capital</td>
+                                            <td>Nov 2021</td>
+                                            <td>$50M</td>
+                                            <td>Series B</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ACME Capital, Triventures</td>
+                                            <td>Feb 2021</td>
+                                            <td>$24M</td>
+                                            <td>Series A</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Undisclosed</td>
+                                            <td>Mar 2021</td>
+                                            <td>$5M</td>
+                                            <td>Equity</td>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="investment-wrapper tab" data-id="tab5">
+                        <div class="heading-wrap">
+                            <i class="media" aria-hidden="true"></i>
+                            <h2>Organization Media Mention</h2>
+                        </div>
+                        <p>Review  Brightside Health media mentions, showcasing their visibility, impact, and industry resonance. From featured articles to news coverage, observe our presence in the media landscape, reflecting our relevance and market perception</p>
+                        <div class="media-wrap">
+                            <span>Total number of media mention</span>
+                            <span class="media-num">226</span>
+                        </div>
+                     <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-5 col-lg-3">
+                                <div class="img-wrapper">
+                                    <img src="assets/images/brightside-health.png" alt="media2">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-7 col-lg-9">
+                                <div class="media-content">
+                                    <div class="media-text">
+                                        <span class="date">October 26, 2023</span>
+                                        <h2>Brightside Health Appoints Matt Mohebbi as Head of AI and Research</h2>
+                                    </div>
+                                 <div class="btn-wrap">
+                                    <a href="https://www.businesswire.com/news/home/20231026499888/en/Brightside-Health-Appoints-Matt-Mohebbi-as-Head-of-AI-and-Research" target="_blank" class="btn">Read full story</a>
+                                 </div>  
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-5 col-lg-3">
+                                <div class="img-wrapper">
+                                    <img src="assets/images/mental-health.png" alt="media2">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-7 col-lg-9">
+                                <div class="media-content">
+                                    <div class="media-text">
+                                        <span class="date">October 13, 2023</span>
+                                        <h2>Mental health and maternal mortality: A telehealth partnership tackles both issues</h2>
+                                    </div>
+                                      <div class="btn-wrap">
+                                        <a href="https://www.chiefhealthcareexecutive.com/view/mental-health-and-maternal-mortality-a-telehealth-partnership-tackles-both-issues" target="_blank" class="btn">Read full story</a>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-5 col-lg-3">
+                                <div class="img-wrapper">
+                                    <img src="assets/images/talk-space.png" alt="media2">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-7 col-lg-9">
+                                <div class="media-content">
+                                       <div class="media-text">
+                                        <span class="date">January 11, 2024</span>
+                                        <h2>Talkspace To Make Long-Held Medicare Expansion a Reality in 2024</h2>
+                                       </div>
+                                       <div class="btn-wrap">
+                                        <a href="https://bhbusiness.com/2024/01/11/talkspace-to-make-long-held-medicare-expansion-a-reality-in-2024/" target="_blank" class="btn">Read full story</a>
+                                       </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     
+
+                  </div>
+
+                  <div class="investment-wrapper tab" data-id="tab6">
+                        <div class="heading-wrap">
+                            <i class="awards" aria-hidden="true"></i>
+                            <h2>Awards</h2>
+                        </div>
+                        <p>Discover Brightside Health accolades and recognition, testament to Their commitment to excellence and innovation. From industry awards to customer commendations, They take pride in our achievements and continuous pursuit of excellence.</p>
+                        <div class="media-wrap">
+                            <span>Total number of awards</span>
+                            <span class="media-num">1</span>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-5 text-center">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img src="assets/images/health-award.png" alt="card-img">
+                                       </div>
+                                    <div class="card-body">
+                                   <span class="company-name">Digital Health Award 2023</span>
+                                   <span class="delivery">November 14,2023</span>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                  </div>
+
+                  </div>
+            </div>
+        </section>
+         <!-- organization-section-end  -->
+         <!-- footer-start -->
+         <footer class="footer">
+            <div class="container">
+                <div class="topbar">
+                    <a href="../index.html" class="footer-logo">
+                        <img src="assets/images/logo.png" alt="footer-logo">
+                    </a>
+                  <div class="social-media">
+                    <span>Follow Us</span>
+                    <ul class="social-link">
+                        <li><a href="#"><img src="assets/images/fb.png" alt="fb"></a></li>
+                        <li><a href="#"><img src="assets/images/twitter.png" alt="fb"></a></li>
+                        <li><a href="#"><img src="assets/images/linkedin.png" alt="fb"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="bottom-bar">
+                    <span>All Rights Reserved. © Readiness Proof Index 2024</span>
+                </div>
+            </div>
+        </footer>
+          <!-- footer-end -->
+          <section class="scrolling-top">
+            <div class="scrolling-top-block">
+                <i class="arrow-tag"></i>
+            </div>
+            <div class="scrolltop">
+                <i class="arrow-tag arrow-tag-block"></i>
+            </div>
+        </section>
+    </div>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/jquery.vmap.js"></script>
+    <script src="assets/js/jquery.vmap.world.js"></script>
+    <script src="assets/js/jquery.vmap.sampledata.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/apexcharts.min.js"></script>
+    <script src="assets/js/apexcharts.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

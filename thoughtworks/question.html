@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mixpond</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+	<div class="warpper">
+		<!-- header-start -->
+		<header class="header">
+            <div class="container">
+                <div class="logo-block">
+                    <a href="../index.html"><img src="assets/images/logo.png" alt="logo" title="logo"></a>
+                </div>
+                <div class="search-block">
+                    <button type="button" class="btn-search"><i class="search-tag"></i></button>
+					<div class="form-wrap">
+                        <form action="#">
+                            <div class="form-control">
+                                <input type="text" placeholder="Search company insights..." class="search-bar-list">
+                                <ul class="search-list">
+                                      <li><a href="index.html">Thoughtworks</a></li>
+                                    <li><a href="../brightside-health/index.html">Brightside Health</a></li>
+                                </ul>
+                            </div>
+                            <button type="button" class="search-btn"><i class="search-tag"></i></button>
+                            <button type="button" class="close-btn close-block"><i class="close-tag"></i></button>
+                        </form>
+                    </div>
+                    <div class="login-block">
+                        <div class="login-id-block">
+                            <img src="assets/images/login-btn.jpg" alt="login-id">
+                        </div>
+                        <div class="name-block">
+                            <span class="hello">Hello</span>
+                            <span class="nixon">Nixon</span>
+                        </div>
+                        <span class="arrow-block">
+                            <i class="arrow-tag"></i>
+                            <a href="../index.html" class="sign-out"><i class="back-icon"></i> Back To Home</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+		<!-- header-end -->
+		<form>
+		<!-- information-block-start -->
+		<section class="information">
+			<div class="container">
+				
+				<!-- <h2>Questions</h2> -->
+				<div class="information-wrap start-block">
+					<h2 class="start-block">Start Questionnaire</h2>
+					<div class="user-details">
+						<div class="user-info user-information">
+							<label for="companyname" class="form-label">Company Name</label>
+							<input type="text" class="form-control" id="companyname">
+						</div>
+					</div>
+					<div class="user-details">
+						<div class="user-info user-information">
+							<label for="companyrevenue" class="form-label">Company Revenue</label>
+							<input type="text" class="form-control" id="companyrevenue">
+						</div>
+					</div>
+				</div>
+				<div class="information-wrap">
+					<h2>Please customize the weightage scores for the four pillars according to your preferences or
+						requirements. <span>(The total sum must be 100)</span></h2>
+					<div class="user-details-wrap inform-user" id="txt-user">
+						<div class="user-info">
+							<label class="form-label">Confidence in Leadership</label>
+							<input type="number" class="form-control submit-form" value="25" oninput="limitValue(this)">
+						</div>
+						<div class="user-info">
+							<label class="form-label">Market readiness</label>
+							<input type="number" class="form-control submit-form" value="25" oninput="limitValue(this)">
+						</div>
+						<div class="user-info">
+							<label class="form-label">Organizational readiness</label>
+							<input type="number" class="form-control submit-form" value="25" oninput="limitValue(this)">
+						</div>
+						<div class="user-info">
+							<label class="form-label">Culture</label>
+							<input type="number" class="form-control submit-form" value="25" oninput="limitValue(this)">
+						</div>
+						<div class="d-md-flex justify-content-between w-100 error-block" id="error-box">
+							<p id="error-msg">Total value exceeds 100! &nbsp;It must be 100</p>
+							<p id="error-msg1">The number should be less than 50</p>
+							<p id="total-msg"></p>
+						</div>
+					</div>
+				</div>
+				<!-- <h2 class="start-block">Start Questionnaire</h2>	 -->
+				<h2>Market readiness</h2>
+				<div class="information-wrap">
+					<div class="user-details">
+						<div class="user-info">
+							<label class="form-label">Please rank company visibility/reputation currently:</label>
+							<div class="checks-wrap">
+								<div class="checks-sub-wrap">
+									<input type="radio" name="Rank" id="txtstrong" value="Strong">
+									<label for="txtstrong"><span class="radio-block"></span> Strong</label>
+								</div>
+								<div class="checks-sub-wrap">
+									<input type="radio" name="Rank" id="txtimprovement" value="Needs improvement">
+									<label for="txtimprovement"><span class="radio-block"></span> Needs improvement</label>
+								</div>
+							</div>
+						</div>
+						<div class="user-info">
+							<label class="form-label">Please identify the market opportunity for investment:</label>
+							<div class="checks-wrap">
+								<div class="checks-sub-wrap">
+									<input type="checkbox" name="Market" id="txtkind" value="Strong">
+									<label for="txtkind"><span class="checkbox-block"></span> Intro first-of-its-kind</label>
+								</div>
+								<div class="checks-sub-wrap">
+									<input type="checkbox" name="Market" id="txtspace" value="Needs improvement">
+									<label for="txtspace"><span class="checkbox-block"></span>Intro innovation in existing space</label>
+								</div>
+								<div class="checks-sub-wrap">
+									<input type="checkbox" name="Market" id="txtaddress" value="Needs improvement">
+									<label for="txtaddress"><span class="checkbox-block"></span>Address unmet need</label>
+								</div>
+							</div>
+						</div>
+						<div class="user-info">
+							<label class="form-label">In your opinion, where is highest potential growth enablement</label>
+							<div class="checks-wrap">
+								<div class="checks-sub-wrap">
+									<input type="checkbox" name="Market" id="txtdiffer" value="Strong">
+									<label for="txtdiffer"><span class="checkbox-block"></span>Articulated area of differentiation</label>
+								</div>
+								<div class="checks-sub-wrap">
+									<input type="checkbox" name="Market" id="txtproduct" value="Needs improvement">
+									<label for="txtproduct"><span class="checkbox-block"></span>Product intro</label>
+								</div>
+								<div class="checks-sub-wrap">
+									<input type="checkbox" name="Market" id="txtindications" value="Needs improvement">
+									<label for="txtindications"><span class="checkbox-block"></span>New indications/uses</label>
+								</div>
+								<div class="checks-sub-wrap">
+									<input type="checkbox" name="Partnership" id="txtpartnerships">
+									<label for="txtpartnerships"><span class="checkbox-block"></span>Partnerships, cross-sell, new markets</label>
+								</div>
+							</div>
+						</div>
+						<div class="user-info user-information">
+							<label class="form-label" for="txtrevenue">Please insert company's revenue goals for next three
+								years</label>
+							<input type="text" name="Revenue" id="txtrevenue" class="form-control">
+						</div>
+					</div>
+				</div>
+				<h2>Company life cycle stage</h2>
+				<div class="information-wrap">
+					<div class="user-details">
+						<div class="user-info">
+							<label class="form-label">Is the company:</label>
+							<div class="checks-wrap">
+								<div class="checks-sub-wrap">
+									<input type="radio" name="Company" id="txtseeking">
+									<label for="txtseeking"><span class="radio-block"></span>Seeking original investment</label>
+								</div>
+								<div class="checks-sub-wrap">
+									<input type="radio" name="Company" id="txtseekingb">
+									<label for="txtseekingb"><span class="radio-block"></span>Seeking series B</label>
+								</div>
+								<div class="checks-sub-wrap">
+									<input type="radio" name="Company" id="txtseekingc">
+									<label for="txtseekingc"><span class="radio-block"></span>Seeking series C</label>
+								</div>
+							</div>
+						</div>
+						<div class="user-info">
+							<label class="form-label">Are you evaluating a company you've already invested in?</label>
+							<div class="checks-wrap">
+								<div class="checks-sub-wrap">
+									<input type="radio" name="Evaluating" id="txtyes" value="Strong">
+									<label for="txtyes"><span class="radio-block"></span>Yes</label>
+								</div>
+								<div class="checks-sub-wrap">
+									<input type="radio" name="Evaluating" id="txtno" value="Needs improvement">
+									<label for="txtno"><span class="radio-block"></span>No</label>
+								</div>
+							</div>
+							<div class="inner-wraps">
+								<div class="checks-inner-wrap">
+									<input type="radio" name="Investment" id="txt1-3">
+									<label for="txt1-3"><span class="radio-block"></span>Investment in place – Years 1-3</label>
+								</div>
+								<div class="checks-inner-wrap">
+									<input type="radio" name="Investment" id="txt4-5">
+									<label for="txt4-5"><span class="radio-block"></span>Investment in place – Years 4-5</label>
+								</div>
+								<div class="checks-inner-wrap">
+									<input type="radio" name="Investment" id="txt5+">
+									<label for="txt5+"><span class="radio-block"></span>Assessing investment 5+ years.</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h2> Culture</h2>
+				<div class="information-wrap">
+					<div class="user-details">
+						<div class="user-info">
+							<label class="form-label">Please rank on a scale of 1-10 the importance to your investment of the company's standards for sustainability (1 is low, 10 is high)</label>
+								<div class="ratings-wrap">
+									<div class="buttons-wrap">
+										<button type="button" class="buttons btn-1 deactive-btn">1</button>
+										<button type="button" class="buttons btn-2 deactive-btn">2</button>
+										<button type="button" class="buttons btn-3 deactive-btn">3</button>
+										<button type="button" class="buttons btn-4 deactive-btn">4</button>
+										<button type="button" class="buttons btn-5 deactive-btn">5</button>
+										<button type="button" class="buttons btn-6 deactive-btn">6</button>
+										<button type="button" class="buttons btn-7 deactive-btn">7</button>
+										<button type="button" class="buttons btn-8 deactive-btn">8</button>
+										<button type="button" class="buttons btn-9 deactive-btn">9</button>
+										<button type="button" class="buttons btn-10 deactive-btn">10</button>
+									</div>
+									<span class="very-low">Very Low</span>
+									<span class="very-high">Very High</span>
+								</div>
+						</div>
+						<div class="user-info">
+							<label class="form-label">Please rank on a scale of 1-10 the importance to investment of the company's DEI policies:</label>
+							<div class="ratings-wrap">
+								<div class="buttons-wrap">
+									<button type="button" class="buttons btn-1 deactive-btn">1</button>
+									<button type="button" class="buttons btn-2 deactive-btn">2</button>
+									<button type="button" class="buttons btn-3 deactive-btn">3</button>
+									<button type="button" class="buttons btn-4 deactive-btn">4</button>
+									<button type="button" class="buttons btn-5 deactive-btn">5</button>
+									<button type="button" class="buttons btn-6 deactive-btn">6</button>
+									<button type="button" class="buttons btn-7 deactive-btn">7</button>
+									<button type="button" class="buttons btn-8 deactive-btn">8</button>
+									<button type="button" class="buttons btn-9 deactive-btn">9</button>
+									<button type="button" class="buttons btn-10 deactive-btn">10</button>
+								</div>
+								<span class="very-low">Very Low</span>
+								<span class="very-high">Very High</span>
+							</div>
+						</div>
+						<div class="user-info">
+							<label class="form-label">In your opinion, does the company currently have a good corporate
+								citizenship?</label>
+							<div class="checks-wrap">
+								<div class="checks-inner-wrap">
+									<label class="form-label">Articulated</label>
+									<div class="checks-sub-wrap">
+										<input type="radio" name="citizenship" id="txtarticulated">
+										<label for="txtarticulated"><span class="radio-block"></span>Yes</label>
+									</div>
+									<div class="checks-sub-wrap">
+										<input type="radio" name="citizenship" id="txtbusiness">
+										<label for="txtbusiness"><span class="radio-block"></span>No</label>
+									</div>
+								</div>
+								<div class="checks-inner-wrap">
+									<label class="form-label">Reflected in business, culture and operations</label>
+									<div class="checks-sub-wrap">
+										<input type="radio" name="citizenships" id="txt-yes">
+										<label for="txt-yes"><span class="radio-block"></span>Yes</label>
+									</div>
+									<div class="checks-sub-wrap">
+										<input type="radio" name="citizenships" id="txt-no">
+										<label for="txt-no"><span class="radio-block"></span>No</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h2>Competitors</h2>
+				<div class="information-wrap information-wrap-block">
+					<div class="user-details">
+						<div class="user-info user-information">
+							<label for="txtcompete1">Please list 3 competitors the RPI will use for comparison</label>
+							<ul>
+								<li><input type="text" name="Competitors" class="form-control mb-4" id="txtcompete1" placeholder="Competitor 1"></li>
+								<li><input type="text" name="Competitors" class="form-control mb-4" id="txtcompete2" placeholder="Competitor 2"></li>
+								<li><input type="text" name="Competitors" class="form-control" id="txtcompete3" placeholder="Competitor 3"></li>
+							</ul>
+						</div>
+					</div>
+					<div class="text-center">
+						<button type="button" class="btn submit_btn btn-closed scroll-top" >
+							Submit
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+			<!-- information-block-end-->
+		</form>
+		<!-- footer-start -->
+		<footer class="footer">
+            <div class="container">
+                <div class="topbar">
+                    <a href="../index.html" class="footer-logo">
+                        <img src="assets/images/logo.png" alt="footer-logo">
+                    </a>
+                  <div class="social-media">
+                    <span>Follow Us</span>
+                    <ul class="social-link">
+                        <li><a href="#"><img src="assets/images/fb.png" alt="fb"></a></li>
+                        <li><a href="#"><img src="assets/images/twitter.png" alt="fb"></a></li>
+                        <li><a href="#"><img src="assets/images/linkedin.png" alt="fb"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="bottom-bar">
+                    <span>All Rights Reserved. © Readiness Proof Index 2024</span>
+                </div>
+            </div>
+         </footer>
+		 	<!-- footer-end -->
+			 <section class="scrolling-top">
+				<div class="scrolling-top-block">
+					<i class="arrow-tag"></i>
+				</div>
+				<div class="scrolltop">
+					<i class="arrow-tag arrow-tag-block"></i>
+				</div>
+			</section>
+			<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body text-center">
+		  <p>Your form is submitted, Your report will be generated soon</p>
+		</div>
+	  </div>
+	</div>
+  </div>
+	</div>
+	<script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

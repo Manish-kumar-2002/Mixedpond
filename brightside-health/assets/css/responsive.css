@@ -1,0 +1,1293 @@
+@media all and (min-width:375px) {
+    .brand-block .button-wrap {
+        gap: 10px;
+    }
+    .logo-block {
+        width: 178px;
+    }
+    .brand-block .button-wrap .button-details , .compare-tech span , .compare-button button , .assetsssment-download a {
+        font-size: 12px;
+    }
+    .compare-form-block .form-control input {
+        width: 184px;
+        font-size: 15px !important;
+        padding: 0 20px;
+    }
+    .compare-list li , .search-list li {
+        font-size: 15px;
+    }
+    .compare-form-block .form-control input::placeholder {
+        font-size: 15px;
+    }
+    .comparing-form .form-control input {
+        width: 100%;
+    }
+    .brand-block .button-wrap .button-details {
+        min-width: 92px;
+    }
+}
+@media all and (min-width:480px) {
+    .search-tag {
+        background-size: 24px 24px;
+    }
+    .login-block .login-id-block {
+        width: 35px;
+    }
+    .name-block .hello {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .name-block .nixon {
+        font-size: 15px;
+    }
+    .arrow-tag {
+        background-size: 26px 26px;
+    }
+    .brand-wrap .organization-text {
+        font-size: 14px;
+    }
+    .brand-wrap h1 {
+        font-size: 22px;
+    }
+    .brand-block .button-wrap {
+        gap: 10px;
+    }
+    .brand-block .button-wrap .button-details , .compare-tech span , .compare-button button , .assetsssment-download a {
+        font-size: 14px;
+    }
+    .brand-wrap .button-block .button-tag {
+        padding: 8px;
+        font-size: 14px;
+    }
+    .compare-form-block .form-control input {
+        width: 202px;
+    }
+    .comparing-form .form-control input {
+        width: 100%;
+    }
+    .progress-block .item_label , .progress-block .item_value {
+        font-size: 16px;
+    }
+    .progress_bar li::before {
+        top: 8px;
+        left: 8px;
+    }
+    .leaders-image {
+        margin-bottom: 15px;
+    }
+    .leadership-tag, .leadership-score {
+        margin-bottom: 10px;
+    }
+    .leader-rating {
+        font-size: 16px;
+    }
+    .accordion-title h4 {
+        font-size: 16px;
+    }
+    .accordion-content li span {
+        font-size: 14px;
+    }
+    .score-pillar-block .leadership-detail {
+        margin: 0 auto 20px;
+        padding: 12px;
+        width: 170px;
+    }
+    .accordion-container {
+        margin-bottom: 15px;
+    }
+    .accordion-container .accordion-title {
+        padding: 13px 15px;
+    }
+    .accordion-content li {
+        padding: 13px 0;
+    }
+    .brand-block .button-wrap .button-details {
+        min-width: 102px;
+    }
+    .brand-wrap .button-block {
+        width: 604px;
+    }
+}
+@media all and (min-width:576px) {
+    .awards-wrapper .card {
+        min-height: 377px;
+    }
+}
+@media all and (min-width:768px) {
+    .header {
+        padding: 15px 0;
+        margin-bottom: 45px;
+    }
+    .search-block .btn-search {
+        display: none;
+    }
+    .form-control {
+        padding: 0;
+    }
+    .search-btn {
+        top: 0;
+        left: 0;
+    }
+    .form-wrap {
+        position: relative;
+        display: block;
+        width: 300px;
+    }
+    .login-block .arrow-block {
+        width: 28px;
+        height: 28px;
+    }
+    .banner .banner-block {
+        min-height: 110px;
+    }
+    .whole-wrap {
+        padding: 0 32px 0 26px;
+    }
+    .comaparsion-between {
+        padding: 19px 25px;
+    }
+    .brand-wrap .brand-image {
+        left: 54px;
+        width: 108px;
+    }
+    .brand-wrap .organization-text {
+        border-radius: 60px;
+    }
+    .brand-wrap .brand-detail{
+        padding: 19px 0px 0px 125px;
+        margin-bottom: 0px;
+    }
+    .brand-wrap .brand-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .brand-block .button-wrap {
+        align-items: center;
+        gap: 15px;
+    }
+    .brand-block .button-wrap .button-details {
+        border-radius: 8px;
+        min-width: 111px;
+        padding: 4px 9px 4px 4px;
+    }
+    .brand-wrap .button-block .button-tag {
+        border-radius: 8px;
+    }
+    .brand-wrap .button-block{
+        width: auto;
+        padding: 0 5px;
+        gap: 5px;
+    }
+    .overview-block {
+        padding: 0 0 25px;
+    }
+    .overview-block p {
+        font-size: 15px;
+        margin-left: 6px;
+        margin-bottom: 30px;
+    }
+    .overview-block .mission-revenue {
+        margin-bottom: 30px;
+        gap: 59px;
+    }
+    .overview-block .mission-revenue li {
+        width: auto;
+    }
+    .overview-block .state-tag {
+        font-size: 16px;
+    }
+    .overview-block .headquaters-map {
+        margin-bottom: 30px;
+    }
+    .award-block {
+        padding: 0px 0 15px;
+    }
+    .award-block p {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .comaparsion-between, .compare-tech, .tech-wrap, .it-tech, .assetsssment-download, .techforge, .companies {
+        justify-content: normal;
+    }
+    .tech-wrap ,.it-tech {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .techforge , .companies {
+        flex-wrap: nowrap;
+    }
+    .assetsssment-download {
+        width: 100%;
+    }
+    .assetsssment-download a {
+        width: 48%;
+        display: flex;
+        justify-content: center;
+        height: 48px;
+        gap: 12px;
+    }
+    .compare-button button ,.tech-wrap .vs, .tech-wrap .techforge span, .it-tech span {
+        height: 48px;
+        gap: 8px;
+    }
+    .tech-wrap .vs, .tech-wrap .techforge span, .it-tech span {
+        margin: 0;
+    }
+    .tech-wrap .vs {
+        padding:  0 12px;
+    }
+    .techforge , .it-tech {
+        width: auto;
+    }
+    .tech-wrap {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .compare-form {
+        left: auto;
+        right: 53.4%;
+    }
+    .compare-form-block .form-control input {
+        width: 207px;
+        padding: 0 25px;
+        border-radius: 8px;
+        height: 35px;
+        background-position: 5px 7px;
+    }
+    .input-click , .close-tag {
+        background-size: 19px 19px;
+    }
+    .compare-form-block .close-btn {
+        right: 0;
+        top: 2px;
+    }
+    .compare-list li a , .search-list li a {
+        padding: 8px 22px;
+    }
+    .comparing-form {
+        right: 0;
+    }
+    .comparing-form .form-control input {
+        width: 100%;
+        height: 51px;
+        background-position: 5px 16px;
+    }
+    .tech-wrap .techforge, .tech-wrap .companies {
+        border-radius: 8px;
+    }
+    .comparing-form .close-btn {
+        right: 7px;
+        top: 9px;
+    }
+    .form-wrap .close-btn {
+        top: 0;
+        right: 0;
+    }
+    .total-block {
+        text-align: right;
+        width: 100%;
+    }
+    .user-inform {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .user-info .form-labeled {
+        width: 48%;
+        padding: 8px 0;
+    }
+    .user-details-block , .dropdown-response {
+        width: 48%;
+    }
+    .form-select:disabled {
+        width: 48%;
+    }
+    .selected-yes , .user-block{
+        width: 100% !important;
+    }
+    .user-informed .form-labeled {
+        padding: 0;
+    }
+    .nav{
+        padding: 0px;
+    }
+      .progress_bar_item .operation{
+        width: 30%;
+      }
+    .logo-block {
+        width: 242px;
+    }
+    p {
+        margin-bottom: 25px;
+    }
+    .nav-item {
+        padding: 17px 30px;
+    }
+    .media-content{
+        padding: 15px 20px 10px 0px;
+    }
+    .date{
+        margin-bottom: 10px;
+    }
+    .media-block{
+        margin-bottom: 30px;
+    }
+    .media-block .img-wrapper {
+        margin-bottom: 0px;
+        }
+        .footer-link{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        .footer-link li {
+        margin: 0 10px;
+        }
+        .gender-distribution, .age-distribution, .line-graph{
+            width: 90%;
+        }
+        .organization-content, .awards-wrapper{
+            margin-bottom: 30px;
+        }
+        .audience-content{
+            display: flex;
+            align-items: center; 
+            margin-bottom: 40px;
+        }
+        .map{
+            width: 60%;
+            margin-bottom: 0;
+            margin-right: 26px;
+        }
+        .map-data{
+            width: 281px;
+        }
+        .mission-revenue.market-rank{
+            gap: 0;
+            margin: -20px;
+        }
+        .mission-revenue.market-rank li {
+            width: calc(33.33% - 40px);
+            margin: 23px 20px;
+        }
+        .market-rank{
+            max-width: 1300px;
+        }
+        .engagement-wrapper{
+            margin-bottom: 30px;
+        }
+        #vmap {
+           padding-top: 20px;
+          }
+          .comparison-table td{
+            padding: 15px 20px !important;
+        }
+        .user-info label{
+            font-size: 17px;
+        }
+        .information h2{
+            margin-bottom: 30px;
+        }
+        .user-info{
+            margin-bottom: 26px;
+        }
+        .user-info .form-control{
+            font-size: 20px;
+        }
+        .information-warp {
+            margin-bottom: 50px;
+        }
+        .user-details-wrap{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .user-details-wrap .user-info{
+            width: 48%;
+        }
+        .information h2 span{
+        margin-left: 15px;
+        }
+        .user-details-wrap p{
+            margin-bottom: 0px;
+        }
+        .overview-block .social-block .follow-block {
+            font-size: 14px;
+        }
+        .score-graph {
+            flex-direction: row;
+            gap: 20px;
+        }
+        .progress_bar li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .ce_ixelgen_progress_bar .item_bar {
+            width: 140px;
+        }
+        .progress-block {
+            width: 400px;
+            margin-top: 35px;
+        }
+        .progress-blocks {
+            gap: 6px;
+            justify-content: normal;
+        }
+        .score-block {
+            gap: 10px;
+        }
+        .leadership-block {
+            width: 47%;
+            border-radius: 15px;
+        }
+        .accordion-container .accordion-title {
+            border-radius: 8px;
+        }
+        .leadership-rating {
+            gap: 10px;
+        }
+        .score-pillar{
+            margin-bottom: 80px;
+        }
+        .score-pillar-block {
+            margin-top: 0;
+        }
+        .leadership-block.score-pillar-block {
+            width: 51%;
+        }
+        .progress-block .item_label, .progress-block .item_value {
+            font-size: 13px;
+        }
+        .ce_ixelgen_progress_bar .progress_bar_item:not(:last-child) {
+            margin-bottom: 57px;
+        }
+        .progress_bar li::before {
+            top: 5px;
+        }
+        .ce_ixelgen_progress_bar .item_label, .ce_ixelgen_progress_bar .item_value {
+            margin-bottom: 0;
+        }
+        #circle-image {
+            margin-bottom: 0;
+        }
+        .organization-score {
+            padding: 40px 0;
+        }
+        .ce_ixelgen_progress_bar .item_value {
+            width: 15px;
+        }
+        .half-table {
+            width: 48% !important;
+        }
+        .state-tag {
+            font-size: 16px;
+        }
+        .topbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .footer-logo {
+            margin: 0;
+        }
+        .arrow-block .sign-out {
+            right: 0;
+            top: 165%;
+        }
+        .scrolling-top {
+            display: block;
+        }
+}
+@media all and (min-width:992px) {
+    .header {
+        padding: 20px 0 24px;
+    }
+    .form-wrap {
+        width: 400px;
+    }
+    .form-wrap .form-control input::placeholder {
+        font-size: 16px;
+    }
+    .form-wrap .form-control input {
+        border-radius: 8px;
+    }
+    .brand-wrap .brand-block {
+        margin-bottom: 30px;
+    }
+    .brand-wrap .brand-image {
+        width: 120px;
+    }
+    .brand-wrap .brand-detail{
+        padding: 15px 0px 0px 140px;
+    }
+    .brand-wrap .organization-text{
+        font-size: 16px;
+    }
+    .brand-wrap h1{
+        font-size: 30px;
+    }
+    .verified-tag , .compare-tag, .export-tag, .website-tag , .assessment-tag , .cross-tag {
+        background-size: 18px 18px;
+    }
+    .brand-block .button-wrap .button-details , .compare-tech span , .compare-button button , .assetsssment-download a {
+        font-size: 14px;
+        padding: 9px 14px 7px 7px;
+    }
+    .brand-wrap .button-block .button-tag{
+        font-size: 16px;
+    }
+    .overview-block p {
+        font-size: 16px;
+    }
+    .overview-block .mission-revenue h2 {
+        font-size: 24px;
+    }
+    .mission-revenue .heading-detail {
+        font-size: 16px;
+    }
+    .overview-block .mission-revenue li {
+        width: 44%;
+    }
+    .overview-block .specialties-deatil li {
+        padding: 14px;
+    }
+    .overview-block .award-specialtie-block {
+        margin-bottom: 0;
+    }
+    .overview-block .headquaters-block {
+        padding-left: 0;
+    }
+    .award-block p {
+        font-size: 16px;
+        margin-bottom: 34px;
+    }
+    .award-block .cards-block {
+        margin-bottom: 25px;
+    }
+    .award-block .name {
+        font-size: 22px;
+    }
+    .award-block .rating {
+        font-size: 22px;
+    }
+    .award-block .card{
+        padding: 28px 0 14px;
+    }
+    .compare-form-block .form-control input {
+        width: 230px;
+        height: 42px;
+        font-size: 16px !important;
+        background-size: 22px;
+        background-position: 8px 10px;
+        padding: 3px 38px;
+    }
+    .compare-form-block .form-control input::placeholder {
+        font-size: 16px;
+    }
+    .close-tag {
+        background-size: 27px 27px;
+    }
+    .compare-form-block .close-btn {
+        top: 7px;
+    }
+    .compare-list li , .search-list li {
+        font-size: 16px;
+    }
+    .compare-list li a,.comparing-form .compare-list li a {
+        padding: 13px 23px;
+    }
+    .comparing-form .form-control input {
+        width: 100%;
+        height: 51px;
+        background-position: -36px 2px;
+        padding: 0 60px
+    }  
+    .comaparsion-between  .comparing-form{
+        right: 0;
+    }
+    .comaparsion-between .compare-tech{
+        position: relative;
+    }
+      .organization-content .card {
+        min-height: 301px;
+        padding: 0;
+       
+    }
+    .organization-content{
+        margin-bottom: 55px;
+    }
+    .awards-wrapper{
+        margin-bottom: 23px;
+    }
+    .nav {
+        margin-bottom: 53px;
+    }
+    .heading-wrap {
+        margin-bottom: 25px;
+    }
+    .engagement-wrapper .heading-wrap {
+        margin-bottom: 9px;
+    }
+    .mission-revenue.market-rank li {
+        width: calc(25% - 40px);
+    }
+    .score-pillar-block .leadership-detail {
+        padding: 16px;
+    }
+    .progress-block {
+        width: 530px;
+    }
+    .organization-score h3 {
+        font-size: 28px;
+    }
+    .leadership-block {
+        width: 22%;
+        border-radius: 20px;
+        margin-bottom: 0;
+    }
+    .accordion-title h4 , .leader-rating {
+        font-size: 12px;
+    }
+    .arrow-tags {
+        background-size: 20px;
+    }
+    .leadership-rating {
+        gap: 5px;
+    }
+    .accordion-content li span {
+        font-size: 11px;
+    }
+    .score-pillar h3 {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+  
+    .leaders-image {
+        margin-bottom: 9px;
+    }
+    .leadership-tag {
+        margin-bottom: 4px;
+        font-size: 13px;
+    }
+    .leadership-block.score-pillar-block {
+        width: 30%;
+    }
+    .score-pillar-block .leadership-score-block {
+        margin-top: -55px;
+    }
+    .progress-block .item_label, .progress-block .item_value {
+        font-size: 16px;
+    }
+    .ce_ixelgen_progress_bar .progress_bar_item:not(:last-child) {
+        margin-bottom: 49px;
+    }
+    .ce_ixelgen_progress_bar .item_bar {
+        width: 213px;
+    }
+    .brand-block .button-wrap .button-details {
+        min-width: 119px;
+    }
+    .arrow-block .sign-out {
+        top: 189%;
+    }
+}
+@media all and (min-width:1024px) {
+    .header {
+        padding: 25px 0 24px;
+    }
+    .form-wrap {
+        width: 550px;
+    }
+    .form-wrap .form-control input {
+        padding: 10px 10px 10px 28px;
+    }
+    .search-btn {
+        top: 5px;
+    }
+    .name-block .nixon {
+        font-size: 17px;
+    }   
+    .banner .banner-block {
+        min-height: 130px;
+    }
+    .brand-wrap .brand-image {
+        width: 130px;
+    }
+    .brand-wrap .brand-detail {
+        padding: 20px 0px 0px 150px;
+    }
+    .overview-block p {
+        margin-bottom: 50px;
+    }
+    .overview-block .specialties-deatil li {
+        font-size: 16px;
+    }
+    .overview-block .headquaters-map {
+        margin-bottom: 48px;
+    }
+    .overview-block .specialties-deatils p {
+        line-height: 1.94;
+    }
+    .overview-block .specialties-deatil {
+        column-gap: 17px;
+    }
+    .award-block .cards-block {
+        margin-bottom: 30px;
+    }
+    .award-block .name {
+        font-size: 24px;
+    }
+    .award-block .rating {
+        font-size: 24px;
+    }
+    .award-block .card{
+        padding: 34px 0 17px;
+    }
+    .award-block {
+        padding: 0px 0 49px;
+    }
+    .compare-tech {
+        width: 65%;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .techforge-tag {
+        margin: 0;
+    }
+    .assetsssment-download {
+        width: 33%;
+        flex-wrap: nowrap;
+        padding: 12px 10px;
+        justify-content: space-between;
+    }
+    .tech-wrap, .it-tech, .techforge, .companies {
+        width: auto;
+    }
+    .comaparsion-between {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .comparsion-section .compare-tech, .comparsion-section .assetsssment-download {
+        gap: 0px;
+    }
+    .tech-wrap .techforge, .tech-wrap .companies {
+        padding: 0 2px;
+    }
+
+    .tech-wrap .techforge span {
+        margin: 0;
+    }
+    .compare-button button ,.compare-button {
+        width: auto;
+    }
+    .comparing-block {
+        width: 130px;
+    }
+    .comparing-form .form-control input {
+        padding: 0 19px;
+        background-position: 1px 12px;
+        background-size: 22px 22px;
+        font-size: 13px;
+    }
+    .comaparsion-between  .form-control input{
+        padding: 0 39px;
+        background-position: 10px;
+    }
+    .comparing-form .form-control input::placeholder {
+        font-size: 13px;
+    }
+    .compare-form .close-btn {
+        right: 0;
+    }
+    .comparing-form .compare-list a {
+        padding: 13px 3px;
+    }
+    .comparing-form .compare-list li {
+        font-size: 13px;
+    }
+    .comaparsion-between  .comparing-form  {
+        width: 305px;  
+    } 
+    .form-wrap .close-btn{
+        top: 6px;
+    }
+    .tech-wrap {
+        overflow: auto;
+        padding: 1px;
+    }
+    .compare-button.button-wrap {
+        margin-left: 10px;
+    }
+    p{
+        margin-bottom: 34px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    .organization-content .card {
+        min-height: 300px;
+    }
+    .hide{
+        display: block;
+    }
+    .media-block h2{
+        font-size: 24px;
+    }
+    .media-block .btn{
+        padding: 14px 20px;
+    }
+    .audience-content{
+        margin-bottom: 86px;
+    }
+    #vmap {
+        padding-top: 40px;
+       }
+       .gender-wrap .heading-wrap {
+        margin: 0 53px 44px 0;
+    }
+    .gender-text .gender{
+        margin-bottom: 9px;
+    }
+    .user-details-wrap .user-info{
+        width: 24%;
+        margin-bottom: 15px;
+    }
+    .media-wrap{
+        margin-bottom: 30px;
+    }
+    .organization-score h3 {
+        font-size: 30px;
+    }
+    .score-pillar h3 {
+        font-size: 30px;
+        margin-bottom: 80px;
+    }
+    .progress_bar li::before {
+        top: 8px;
+    }
+    .organization-score {
+        padding: 53px 0 35px;
+    }
+    .arrow-block .sign-out {
+        width: 138px;
+        font-size: 15px;
+        top: 179%;
+    }
+}
+@media all and (min-width:1200px) {
+    .logo-block {
+        width: 120px;
+    }
+    .form-wrap .form-control input::placeholder {
+        font-size: 18px;
+    }
+    .form-wrap {
+        width: 650px;
+    }
+    .form-wrap .form-control input {
+        padding: 19px 10px 16px 55px;
+    }
+    .name-block .nixon {
+        font-size: 18px;
+    }
+    .search-btn {
+        top: 12px;
+        left: 15px;
+    }
+    .brand-wrap h1 {
+        font-size: 32px;
+    }
+    .brand-block .button-wrap .button-details , .compare-tech span , .compare-button button , .assetsssment-download a {
+        font-size: 16px;
+        padding: 11px 23px;
+        margin-top: 27px;
+        height: 48px;
+    }
+    .assetsssment-download a {
+        font-size: 15px;
+    }
+    .brand-block .button-wrap {
+        margin-top: 27px;
+    }
+    .brand-block .button-wrap .button-details {
+        margin-top: 0;
+        min-width: 154px;
+    }
+    .brand-wrap .button-block .button-tag {
+        font-size: 18px;
+    }
+    .compare-button button {
+        padding: 0 9px;
+    }
+    .compare-form {
+        right: 52.6%;
+    }
+    .compare-form-block .form-control input {
+        font-size: 18px !important;
+        width: 320px;
+        padding: 3px 52px;
+        background-size: 29px;
+        background-position: 8px 10px;
+        height: 48px;
+    }
+    .compare-form-block .form-control input::placeholder {
+        font-size: 18px;
+    }
+    .compare-form-block .close-btn {
+        top: 9px;
+    }
+    .compare-list li ,.comparing-form .compare-list li, .search-list li {
+        font-size: 18px;
+    }
+    .comparing-form {
+        right: 0;
+        width: 134px;
+    }
+    .comparing-form .form-control input {
+        font-size: 16px !important;
+        background-color: whitesmoke;
+    }
+    .comparing-form .form-control input::placeholder {
+        font-size: 16px !important;
+    }
+    .comaparsion-between  .comparing-form {
+        right: 15px;
+    }
+    .form-wrap .close-btn {
+        top: 14px;
+        right: 10px;
+    }
+    .topbar {
+        padding: 25px 0;
+     }
+     .footer-logo {
+        margin: 0;
+    }
+    .footer-link{
+        margin: 0 30px;
+    }
+    .engagement-wrapper{
+        margin-bottom: 76px;
+    }
+    #vmap {
+        padding-top: 62px;
+       }
+       .audience-content{
+        margin-bottom: 126px;
+    }
+    .female, .male{
+        width: 40px;
+        height: 40px;
+    }
+    .arrow-block .sign-out {
+        top: 175%;
+    }
+}
+@media all and (min-width:1400px) {
+    .header {
+        padding: 30px 0 24px;
+    }
+    .logo-block {
+        width: 132px;
+    }
+    .form-wrap {
+        width: 734px;
+    }
+    .search-block {
+        gap: 16px;
+    }
+    .login-block {
+        gap: 16px;
+    }
+    .search-tag {
+        background-size: 100% 100%;
+    }
+    .search-btn {
+        left: 22px;
+    }
+    .login-block .login-id-block {
+        width: 49%;
+    }
+    .banner .banner-block {
+        min-height: 194px;
+    }
+    .brand-wrap .brand-image {
+        width: 153px;
+        top: -43px;
+    }
+    .brand-wrap .brand-detail {
+        padding: 25px 0px 0px 191px;
+    }
+    .brand-wrap .organization-text {
+        padding: 6px 21px;
+        margin-bottom: 12px;
+    }
+    .brand-wrap .brand-name .verified-tag {
+        margin-left: 16px;
+        background-size: 100% 100%;
+    }
+    .compare-tag, .export-tag, .website-tag , .assessment-tag , .cross-tag {
+        background-size: 100% 100%;
+    }
+    .brand-wrap .brand-block {
+        margin-bottom: 53px;
+    }
+    .brand-wrap .button-block .button-tag {
+        padding: 13px 27px;
+    }
+    .overview-block .mission-block {
+        margin-bottom: 15px;
+    }
+    .overview-block .mission-revenue {
+        gap: 47px;
+        margin-bottom: 50px;
+    }
+    .overview-block .mission-revenue li {
+        width: 34%;
+    }
+    .overview-block .specialties-block {
+        margin-bottom: 14px;
+    }
+    .overview-block .specialties-deatil {
+        width: 830px;
+        margin-bottom: 6px;
+    }
+    .overview-block .specialties-deatil li {
+        margin-bottom: 15px;
+    }
+    .overview-block .headquaters-detail {
+        margin-bottom: 16px;
+    }
+    .tech-wrap .vs, .tech-wrap .techforge span, .it-tech span , .compare-button button {
+        padding: 8px 23px;
+    }
+    .tech-wrap .techforge, .tech-wrap .companies {
+        padding: 0 8px;
+    }
+    .comparing-form {
+        width: 145px;
+    }
+    .compare-form .close-block {
+        padding: 0;
+    }
+    .assetsssment-download a {
+        font-size: 16px;
+    }
+    .brand-block .button-wrap .button-details , .compare-tech span , .compare-button button , .assetsssment-download a {
+        font-size: 17px;
+    }
+    .logo-block {
+        width: 280px;
+    }
+    .footer-link{
+        margin: 0 38px;
+    }
+    .footer-link li{
+        margin: 0 36px;
+    }
+    .social-media span{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .media-block .img-wrapper{
+        padding-right: 21px;
+    }
+    .media-block .img-wrapper img{
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .date{
+        margin-bottom: 22px;
+    }
+    .audience-content{
+        margin-bottom: 189px;
+    }
+   .table th, .table td{
+     padding: 19px;
+    }
+    .organization-score h3 {
+        font-size: 32px;
+    }
+    .organization-score {
+        padding: 53px 0 49px;
+    }
+    .score-graph {
+        padding-top: 33px;
+        gap: 110px;
+    }
+    .progress-block {
+        margin-top: 41px;
+        width: 530px;
+    }
+    .ce_ixelgen_progress_bar .progress_bar_item {
+        margin-bottom: 39px;
+    }
+    .score-pillar h3 {
+        font-size: 32px;
+        margin-bottom: 117px;
+    }
+    .leadership-block {
+        width: 20%;
+        padding: 22px;
+    }
+    .score-block {
+        gap: 22px;
+    }
+    .leaders-image {
+        width: 94px;
+    }
+    .leadership-tag {
+        font-size: 16px;
+    }
+    .leadership-score {
+        font-size: 36px;
+    }
+    .leadership-detail {
+        margin-bottom: 26px;
+    }
+    .accordion-title h4 {
+        font-size: 16px;
+    }
+    .accordion-container .accordion-title {
+        padding: 13px 8px 13px 13px;
+    }
+    .arrow-tags {
+        background-size: 28px;
+    }
+    .accordion-container {
+        margin-bottom: 31px;
+    }
+    .score-pillar{
+        margin-bottom: 125px;
+    }
+    .leadership-block.score-pillar-block {
+        width: 34.8%;
+    }
+    .score-pillar-block .leadership-detail{
+        width: 298px;
+        border-radius: 30px;
+        margin-bottom: 40px;
+    }
+    .accordion-content li span{
+        font-size: 15px;
+    }
+    .leader-rating{
+        font-size: 24px;
+    }
+    .score-pillar-block .leadership-score-block {
+        margin-top: -100px;
+    }
+    .leadership-rating {
+        gap: 17px;
+    }
+    .brand-block .button-wrap .button-details {
+        min-width: 160px;
+    } 
+    .arrow-block .sign-out {
+        top: 139%;
+    }
+}
+@media all and (min-width:1600px) {
+    .accordion-title h4 , .leadership-tag{
+        font-size: 18px;
+    }
+    .accordion-content li span{
+        font-size: 18px;
+    }
+    .progress-block {
+        width: 546px;
+    }
+}
+@media all and (min-width:1800px) {
+    .accordion-title h4 , .leadership-tag{
+        font-size: 20px;
+    }
+}
+@media all and (min-height:650px) and (min-width:1200px) {
+    .img-wrapper-block {
+        width: 110px;
+        margin: 0 auto;
+    }
+    .img-wrapper-block img {
+        width: 100%;
+        display: block;
+    }
+    .nav-item{
+        padding: 15px 21px;
+    }
+    .banner .banner-block {
+        min-height: 120px;
+    }
+    .brand-wrap .brand-image {
+        width: 110px;
+    }
+    .brand-wrap .brand-detail {
+        padding: 11px 0 0 151px;
+    }
+    .brand-wrap .brand-block {
+        margin-bottom: 13px;
+    }
+    .header {
+        padding: 12px 0 10px;
+    }
+    .logo-block {
+        width: 200px;
+    }
+    .form-wrap .form-control input {
+        padding: 12px 10px 12px 55px;
+    }
+    .search-btn {
+        top: 9px;
+    }
+    .nav {
+        margin-bottom: 25px;
+    }
+    .heading-wrap {
+        margin-bottom: 10px;
+    }
+    .competitors-wrapper p {
+        margin-bottom: 10px;
+    }
+    .leader-margin {
+        margin-top: 31px;
+    }
+    .organization-score {
+        padding: 30px 0 35px;
+    }
+    .brand-wrap h1 {
+        font-size: 28px;
+    }
+    .brand-wrap .organization-text {
+        font-size: 15px;
+    }
+    .organization-score h3 {
+        font-size: 26px;
+    }
+}
+@media all and (min-height:650px) and (min-width:1400px) {
+    .competitors-wrapper p {
+        margin-bottom: 5px;
+    }
+    .organization-score {
+        padding: 31px 0 49px
+    }
+    .score-graph {
+        padding-top: 3px;
+    }
+    .brand-wrap .brand-image {
+        width: 130px;
+    }
+    .search-tag {
+        background-size: 88%;
+    }
+    .login-block .login-id-block {
+        width: 35%;
+    }
+}

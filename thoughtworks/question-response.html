@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mixpond</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+	<div class="warpper">
+		<!-- header-start -->
+		<header class="header">
+            <div class="container">
+                <div class="logo-block">
+                    <a href="../index.html"><img src="assets/images/logo.png" alt="logo" title="logo"></a>
+                </div>
+                <div class="search-block">
+                    <button type="button" class="btn-search"><i class="search-tag"></i></button>
+					<div class="form-wrap">
+                        <form action="#">
+                            <div class="form-control">
+                                <input type="text" placeholder="Search company insights...">
+                               
+                            </div>
+                            <button type="button" class="search-btn"><i class="search-tag"></i></button>
+                          
+                        </form>
+                    </div>
+                    <div class="login-block">
+                        <div class="login-id-block">
+                            <img src="assets/images/login-btn.jpg" alt="login-id">
+                        </div>
+                        <div class="name-block">
+                            <span class="hello">Hello</span>
+                            <span class="nixon">Nixon</span>
+                        </div>
+                        <span class="arrow-block">
+                            <i class="arrow-tag"></i>
+                            <a href="../index.html" class="sign-out"><i class="back-icon"></i> Back To Home</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+		<!-- header-end -->
+		
+		<form>
+		<!-- information-block-start -->
+		<section class="information">
+			<div class="container">
+				<div class="information-warp">
+					<h2>Please customize the weightage scores for the four pillars according to your preferences or
+						requirements. <span>(The total sum must be 100)</span></h2>
+					<div class="user-details-wrap user-informed">
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled user-block">Confidence in Leadership</label>
+							<input type="number" class="form-control" oninput="limitValue(this)" value="25" disabled>
+						</div>
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled user-block">Market readiness</label>
+							<input type="number" class="form-control" oninput="limitValue(this)" value="25" disabled>
+						</div>
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled user-block">Organizational readiness</label>
+							<input type="number" class="form-control" oninput="limitValue(this)" value="25" disabled>
+						</div>
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled user-block">Culture</label>
+							<input type="number" class="form-control" oninput="limitValue(this)" value="25" disabled>
+						</div>
+					</div>
+				</div>
+				<!-- <h2>Confidence in Leadership</h2> -->
+				<div class="information-warp">
+		
+					<div class="user-details">
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled">Please insert company name</label>
+							<span class="user-details-block">XYZ Company</span>
+						</div>
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled">Please insert company revenue</label>
+							<span class="user-details-block">100 Million</span>
+						</div>
+					</div>
+					</form>
+				</div>
+				<h2>Market readiness</h2>
+				<div class="information-warp">
+					<div class="user-details">
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled">Please rank company visibility/reputation currently:</label>
+							<!-- <input type="text" class="form-control"> -->
+							<span class="user-details-block">Strong</span>
+						</div>
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled">Please identify the market opportunity for
+								investment:</label>
+							<span class="user-details-block yes-block">Intro first-of-its-kind</span>
+						</div>
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled">In your opinion, where is highest potential growth
+								enablement</label>
+							<span class="user-details-block yes-block">Articulated area of differentiation</span>
+						</div>
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled">Please insert company's revenue goals for next three
+								years</label>
+							<span class="user-details-block yes-block">500 Million</span>
+						</div>
+					</div>
+					</form>
+				</div>
+				<h2>Company life cycle stage</h2>
+				<div class="information-warp">
+					<div class="user-details">
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled">Is the company:</label>
+							<span class="user-details-block yes-block">Seeking original investment</span>
+						</div>
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled">Are you evaluating a company you've already invested
+								in?</label>
+							<div class="dropdown-response">
+								<span class="user-details-block selected-yes yes-block">Yes</span>
+								<span class="user-details-block selected-yes">Investment in place – Years 1-3</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h2>Competitors</h2>
+				<div class="information-warp">
+					<div class="user-details">
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled">Please rank on a scale of 1-10 the importance to your
+								investment of the company's standards for sustainability (1 is low, 10 is high)</label>
+							<span class="user-details-block yes-block">10</span>
+						</div>
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled">Please rank on a scale of 1-10 the importance to investment
+								of the company's DEI policies:</label>
+							<span class="user-details-block yes-block">10</span>
+						</div>
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled user-informations">In your opinion, does the company currently have a good
+								corporate citizenship?</label>
+						</div>
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled">Articulated</label>
+							<span class="user-details-block yes-block">Yes</span>
+						</div>
+						<div class="user-info user-inform">
+							<label class="form-label form-labeled">Reflected in business, culture and operations</label>
+							<span class="user-details-block yes-block">No</span>
+						</div>
+					</div>
+				</div>
+				<h2>Culture</h2>
+				<div class="information-wrap">
+					<div class="user-info user-inform">
+						<label class="form-label form-labeled">Please list 3 competitors the RPI will use for comparison</label>
+						<ul class="dropdown-response">
+							<li class="user-details-block selected-yes yes-block">Publicis Sapient</li>
+							<li class="user-details-block selected-yes yes-block">Trilogy</li>
+							<li class="user-details-block selected-yes">Accenture</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+			<!-- information-block-end-->
+		</form>
+		<!-- footer-start -->
+		<footer class="footer">
+            <div class="container">
+                <div class="topbar">
+                    <a href="../index.html" class="footer-logo">
+                        <img src="assets/images/logo.png" alt="footer-logo">
+                    </a>
+                  <div class="social-media">
+                    <span>Follow Us</span>
+                    <ul class="social-link">
+                        <li><a href="#"><img src="assets/images/fb.png" alt="fb"></a></li>
+                        <li><a href="#"><img src="assets/images/twitter.png" alt="fb"></a></li>
+                        <li><a href="#"><img src="assets/images/linkedin.png" alt="fb"></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="bottom-bar">
+                    <span>All Rights Reserved. © Readiness Proof Index 2024</span>
+                </div>
+            </div>
+         </footer>
+		 	<!-- footer-end -->
+			 <section class="scrolling-top">
+				<div class="scrolling-top-block">
+					<i class="arrow-tag"></i>
+				</div>
+				<div class="scrolltop">
+					<i class="arrow-tag arrow-tag-block"></i>
+				</div>
+			</section>
+
+	</div>
+	<script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>

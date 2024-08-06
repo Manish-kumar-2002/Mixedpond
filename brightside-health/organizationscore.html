@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mixpond</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="logo-block">
+                    <a href="../index.html"><img src="assets/images/logo.png" alt="logo" title="logo"></a>
+                </div>
+                
+                <div class="search-block">
+                    
+                    <button type="button" class="btn-search"><i class="search-tag"></i></button>
+                    <div class="form-wrap">
+                        <form action="#">
+                            <div class="form-control">
+                                <input type="text" placeholder="Search company insights..." class="search-bar-list">
+                                <ul class="search-list">
+                                    <li><a href="../thoughtworks/index.html">Thoughtwork</a></li>
+                                    <li><a href="../brightside-health/index.html">Brightside Health</a></li>
+                                </ul>
+                            </div>
+                            <button type="button" class="search-btn"><i class="search-tag"></i></button>
+                            <button type="button" class="close-btn close-block"><i class="close-tag"></i></button>
+                        </form>
+                    </div>
+                    <div class="login-block">
+                        <div class="login-id-block">
+                            <img src="assets/images/login-btn.jpg" alt="login-id">
+                        </div>
+                        <div class="name-block">
+                            <span class="hello">Hello</span>
+                            <span class="nixon">Nixon</span>
+                        </div>
+                        <span class="arrow-block">
+                            <i class="arrow-tag"></i>
+                            <a href="../index.html" class="sign-out"><i class="back-icon"></i> Back To Home</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="container">
+                <div class="banner-block"></div>
+            </div>
+        </section>
+        <section class="brand-wrap">
+            <div class="container">
+                <div class="whole-wrap whole-wrap-block">
+                    <div class="brand-block">
+                        <div class="brand-detail">
+                            <div class="brand-image">
+                                <img src="assets/images/brightsidehealth_logo.jpg" alt="google" title="google">
+                            </div>
+                            <div class="brand-name">
+                                <span class="organization-text">Organization</span>
+                                <h1>Brightside Health<i class="verified-tag"></i></h1>
+                            </div>
+                        </div>
+                        <div class="button-wrap">
+                            <a href="javascript:void(0)" class="button-details compare-block"><i class="compare-tag"></i>Compare</a>
+                            <a href="#" class="button-details export-block" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="export-tag"></i>Export PDF</a>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body" style="text-align: center;">
+                                        This functionality will be available soon. <br><br>
+                                        Upon selecting the "Export PDF" button, users will be able to download the organization report in PDF format.
+                                    </div>
+
+                                </div>
+                                </div>
+                            </div>
+                            <a href="#" class="button-details"><i class="website-tag"></i>Visit Website</a>
+                            <div class="compare-form">
+                                <form action="#">
+                                    <div class="compare-form-block">
+                                        <div class="form-control">
+                                            <input type="text" placeholder="Try typing'new'" class="input-click">
+                                            <button type="button" class="close-btn close-block"><i class="close-tag"></i></button>
+                                        </div>
+                                        <ul class="compare-list">
+                                            <li><a href="comparision.html">Headspace</a></li>
+                                            <li><a href="comparision.html">Spring Health</a></li>
+                                        </ul>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-button">
+                        <div class="button-block">
+                            <a href="index.html" class="button-tag">Leadership</a>
+                            <a href="market-readiness.html" class="button-tag">Market Readiness</a>
+                            <a href="organization.html" class="button-tag">Organizational Readiness</a>
+                            <a href="culture.html" class="button-tag">Culture</a>
+                            <a href="organizationscore.html" class="button-tag onactive">Organization Score</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- organization-score-section-start  -->
+        <section class="organization-score">
+            <div class="container">
+                <div class="whole-wrap whole-wrapper">
+                    <h3>Overall Organization Score</h3>
+                <div class="score-graph">
+                    <div id="circle-image"></div>
+                    <div class="progress-block">
+                        <div class="ce_ixelgen_progress_bar block">
+                            <ul class="progress_bar">
+                                <li class="progress_bar_item grid-x">
+                                    <div class="item_label cell auto">Leadership Rating (0-25)</div>
+                                    <div class="progress-blocks">
+                                        <div class="item_bar cell"><div class="progress" data-progress="16"></div></div>
+                                        <div class="item_value cell shrink">0%</div>
+                                    </div>
+                                </li>
+                                <li class="progress_bar_item grid-x">
+                                    <div class="item_label cell auto">Market Readiness Rating (0-25)</div>
+                                    <div class="progress-blocks">
+                                        <div class="item_bar cell"><div class="progress" data-progress="15"></div></div>
+                                        <div class="item_value cell shrink">0%</div>
+                                    </div>
+                                </li>
+                                <li class="progress_bar_item grid-x">
+                                    <div class="item_label cell auto">Organization Readiness Rating (0-25)</div>
+                                    <div class="progress-blocks">
+                                        <div class="item_bar cell"><div class="progress" data-progress="14"></div></div>
+                                        <div class="item_value cell shrink">0%</div>
+                                    </div>
+                                </li>
+                                <li class="progress_bar_item grid-x">
+                                    <div class="item_label cell auto">Culture Rating (0-25)</div>
+                                    <div class="progress-blocks">
+                                        <div class="item_bar cell"><div class="progress" data-progress="10"></div></div>
+                                        <div class="item_value cell shrink">0%</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="score-pillar">
+            <div class="container">
+                <div class="whole-wrap whole-wrapper">
+                    <h3>Score based on Four Pillars</h3>
+                <div class="score-block">
+                    <div class="leadership-block">
+                        <div class="leadership-score-block">
+                        <div class="leadership-detail">
+                            <div class="leaders-image">
+                                <img src="assets/images/leadership.png" alt="leadership">
+                            </div>
+                            <span class="leadership-tag">Leadership Score</span>
+                            <span class="leadership-score"><span class="leadership-score-tag">16/</span>25</span>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Leaders</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">6.5/</span>10</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Metric</span>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span>Number of leaders</span>
+                                    <span>1</span>
+                                </li>
+                                <li>
+                                    <span>Tenure</span>
+                                    <span>1.5</span>
+                                </li>
+                                <li>
+                                    <span>Number of publication</span>
+                                    <span>2.5</span>
+                                </li>
+                                <li>
+                                    <span>Advisory board participations</span>
+                                    <span>1.5</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Awards</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">6.5/</span>7.5</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Metric</span>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span>Number of Awards last 1 year</span>
+                                    <span>2</span>
+                                </li>
+                                <li>
+                                    <span>Industry Specific</span>
+                                    <span>4.5</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Media Mention</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">3/</span>7.5</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Metric</span>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span>Number of Media mentions</span>
+                                    <span>3</span>
+                                </li>
+                                <li>
+                                    <span>Industry Specific websites</span>
+                                    <span>0</span>
+                                </li>
+                            </ul>
+                        </div>
+                        </div> 
+                    </div>
+                    <div class="leadership-block">
+                        <div class="leadership-score-block">
+                        <div class="leadership-detail">
+                            <div class="leaders-image">
+                                <img src="assets/images/marketread.svg" alt="leadership">
+                            </div>
+                            <span class="leadership-tag">Market Readiness Score</span>
+                            <span class="leadership-score"><span class="leadership-score-tag">15/</span>25</span>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Engagement</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">3/</span>5</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Metric</span>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span>Monthly Visits</span>
+                                    <span>1.5</span>
+                                </li>
+                                <li>
+                                    <span>Unique Visitors</span>
+                                    <span>1.5</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Audience Segmentation</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">3/</span>5</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Metric</span>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span>Website traffic by Country</span>
+                                    <span>3</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Revenue</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">3/</span>5</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Metric</span>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span>Total Revenue</span>
+                                    <span>1</span>
+                                </li>
+                                <li>
+                                    <span>Revenue Growth Rate</span>
+                                    <span>2</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Investment</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">3/</span>5</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Metric</span>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span>Total Investment</span>
+                                    <span>1</span>
+                                </li>
+                                <li>
+                                    <span>Series Type</span>
+                                    <span>2</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Funding</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">3/</span>5</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Metric</span>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span>Total Investment</span>
+                                    <span>1</span>
+                                </li>
+                                <li>
+                                    <span>Series Type</span>
+                                    <span>2</span>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="leadership-block">
+                        <div class="leadership-score-block">
+                        <div class="leadership-detail">
+                            <div class="leaders-image">
+                                <img src="assets/images/organizationread.svg" alt="leadership">
+                            </div>
+                            <span class="leadership-tag">Organization Readiness Score</span>
+                            <span class="leadership-score"><span class="leadership-score-tag">14/</span>25</span>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Competitors</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">7/</span>10</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Metric</span>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span>Company Revenue</span>
+                                    <span>7</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Partners</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">7/</span>10</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Metric</span>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span>Partner's Companies Revenue</span>
+                                    <span>7</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Government Relations</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">0/</span>5</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span class="accordion-content-tag">0</span>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="leadership-block">
+                        <div class="leadership-score-block">
+                        <div class="leadership-detail">
+                            <div class="leaders-image">
+                                <img src="assets/images/culturescore.svg" alt="leadership">
+                            </div>
+                            <span class="leadership-tag">Culture Score</span>
+                            <span class="leadership-score"><span class="leadership-score-tag">10/</span>25</span>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Inclusion & Diversity</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">7/</span>10</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Metric</span>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span>Workforce Gender ratio </span>
+                                    <span>7</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Enviromental Overview</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">3/</span>5</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Metric</span>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span>Carbon Footprint</span>
+                                    <span>3</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Sustainability</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">0/</span>5</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span class="accordion-content-tag">0</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion-title js-accordion-title">
+                                <h4>Coporate Citizenship</h4>
+                                <div class="leadership-rating">
+                                    <span class="leader-rating"><span class="leader-rating-tag">0/</span>5</span>
+                                    <i class="arrow-tags"></i>
+                                </div>
+                            </div>
+                            <ul class="accordion-content">
+                                <li>
+                                    <span>Score</span>
+                                </li>
+                                <li>
+                                    <span class="accordion-content-tag">0</span>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+         <!-- organization-score-section-end  -->
+         <!-- footer-start -->
+          <footer class="footer">
+                <div class="container">
+                    <div class="topbar">
+                        <a href="../index.html" class="footer-logo">
+                            <img src="assets/images/logo.png" alt="footer-logo">
+                        </a>
+                      <div class="social-media">
+                        <span>Follow Us</span>
+                        <ul class="social-link">
+                            <li><a href="#"><img src="assets/images/fb.png" alt="fb"></a></li>
+                            <li><a href="#"><img src="assets/images/twitter.png" alt="fb"></a></li>
+                            <li><a href="#"><img src="assets/images/linkedin.png" alt="fb"></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="bottom-bar">
+                        <span>All Rights Reserved. © Readiness Proof Index 2024</span>
+                    </div>
+                </div>
+        </footer>
+          <!-- footer-end -->
+          <section class="scrolling-top">
+            <div class="scrolling-top-block">
+                <i class="arrow-tag"></i>
+            </div>
+            <div class="scrolltop">
+                <i class="arrow-tag arrow-tag-block"></i>
+            </div>
+        </section>
+    </div>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/apexcharts.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
